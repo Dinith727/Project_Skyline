@@ -16,55 +16,59 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public class EmpLogin extends AppCompatActivity {
+public class LoginPage_Cus extends AppCompatActivity {
 
     EditText phone, password;
     Button log;
     DatabaseReference dbRef;
-    Employee emp;
+    Customer cus;
 
     private void clearControls(){
         phone.setText("");
         password.setText("");
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_emp_login);
+        setContentView(R.layout.activity_login_page_cus);
 
-        phone = findViewById(R.id.inputphone5);
-        password = findViewById(R.id.inpw1);
+        phone = findViewById(R.id.et_telNo);
+        password = findViewById(R.id.et_password);
 
-        log = findViewById(R.id.btnlog1);
+        log = findViewById(R.id.btn_submitLogin);
 
-        emp = new Employee();
-
+        cus = new Customer();
     }
-    public void CreateAccount(View view){
-        Intent intent = new Intent(this,empRegAccept.class);
-        startActivity(intent);
+
+    public void CreateNew(View view){
+        Intent i = new Intent(this,CreateNewAccount.class);
+        startActivity(i);
     }
-    public void ForgotPw(View view){
-        Intent intent = new Intent(this,EmpRegResetPw.class);
-        startActivity(intent);
+
+    public void Forgot(View view){
+        Intent in = new Intent(this,CusForgotPass.class);
+        startActivity(in);
     }
+
     public void Login(View view){
 
-        Intent q = new Intent(this,empRegAccept.class);
-        DatabaseReference logRef = FirebaseDatabase.getInstance().getReference().child("Employee");
+        Intent inte = new Intent(this, CusFavourites.class);
+        DatabaseReference logRef = FirebaseDatabase.getInstance().getReference().child("Customer");
         DatabaseReference passRef = logRef.child(phone.getText().toString());
         logRef.addListenerForSingleValueEvent(new ValueEventListener() {
+
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if(snapshot.hasChild(phone.getText().toString())){
                     passRef.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
-                            Employee pwd = snapshot.getValue(Employee.class);
+                            Customer pwd = snapshot.getValue(Customer.class);
                             String pw = pwd.getPassword();
                             if(pw.equals(password.getText().toString())){
-                                startActivity(q);
+                                startActivity(inte);
                             }else
                                 Toast.makeText(getApplicationContext(), "Incorrect Password", Toast.LENGTH_SHORT).show();
                         }
@@ -79,5 +83,6 @@ public class EmpLogin extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError error) {
 
             }
-    });
-}}
+        });
+    }
+}

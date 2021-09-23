@@ -10,32 +10,55 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Taskit">
         <activity
-            android:name=".EmpPwConfig"
+            android:name=".CusAccount"
             android:exported="true" />
         <activity
-            android:name=".EmpRegSuccess"
-            android:exported="true" />
-        <activity
-            android:name=".EmpRegResetPw"
-            android:exported="true" />
-        <activity
-            android:name=".EmpRegEn"
-            android:exported="true" />
-        <activity
-            android:name=".empRegAccept"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".EmpLogin"
+            android:name=".HomePage"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".CusForgotPass"
+            android:exported="true" />
+        <activity
+            android:name=".CusNewLocation"
+            android:exported="true" />
+        <activity
+            android:name=".CusShowJobHistory"
+            android:exported="true" />
+        <activity
+            android:name=".CusFavourites"
+            android:exported="true" />
+        <activity
+            android:name=".CusLocUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".CusAccUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".CusLocation"
+            android:exported="true" />
+        <activity
+            android:name=".MyCusAccount"
+            android:exported="true" />
+        <activity
+            android:name=".MyProfile"
+            android:exported="true" />
+        <activity
+            android:name=".CreateNewAccount"
+            android:exported="true" />
+        <activity
+            android:name=".CusNewAccount"
+            android:exported="true"/>
+        <activity
+            android:name=".LoginPage_Cus"
+            android:exported="true" />
     </application>
 
 </manifest>

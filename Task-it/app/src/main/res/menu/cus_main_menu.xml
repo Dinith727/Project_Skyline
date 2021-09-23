@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/house"/>
+        <item
+            android:id="@+id/nav_car"
+            android:title="Categories"
+            android:icon="@drawable/category"/>
+        <item
+            android:id="@+id/nav_plane"
+            android:title="Privacy Policy"
+            android:icon="@drawable/compliant"/>
+        <item
+            android:id="@+id/nav_bus"
+            android:title="Customer Care"
+            android:icon="@drawable/customercare"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/profile"
+                    android:title="My Profile"
+                    android:icon="@drawable/user"/>
+                <item
+                    android:id="@+id/fav"
+                    android:title="Favorites"
+                    android:icon="@drawable/favourites"/>
+                <item
+                    android:id="@+id/jobHis"
+                    android:title="Job History"
+                    android:icon="@drawable/job"/>
+                <item
+                    android:id="@+id/logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout"/>
+            </menu>
+        </item>
+    </group>
+</menu>
