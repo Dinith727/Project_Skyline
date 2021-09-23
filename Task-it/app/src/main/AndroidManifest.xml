@@ -10,7 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Taskit">
         <activity
+            android:name=".EmpPwConfig"
+            android:exported="true" />
+        <activity
+            android:name=".EmpRegSuccess"
+            android:exported="true" />
+        <activity
+            android:name=".EmpRegResetPw"
+            android:exported="true" />
+        <activity
+            android:name=".EmpRegEn"
+            android:exported="true" />
+        <activity
+            android:name=".empRegAccept"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EmpLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
