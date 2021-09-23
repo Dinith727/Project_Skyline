@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".EmpRegSuccess">
+
+    <TextView
+        android:id="@+id/subhead55"
+        android:layout_width="354dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/subhead4"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head5" />
+
+    <TextView
+        android:id="@+id/head5"
+        android:layout_width="203dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/head"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtreset5"
+        android:layout_width="322dp"
+        android:layout_height="245dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/txtsucdis4"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subhead55" />
+
+    <Button
+        android:id="@+id/btnlog1"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:onClick="login"
+        android:text="@string/btnsucexit1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#86C232"
+        app:cornerRadius="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtreset5"
+        app:layout_constraintVertical_bias="0.415" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
