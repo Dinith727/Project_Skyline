@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Taskit">
         <activity
+            android:name=".uvinduback"
+            android:exported="true" />
+        <activity
             android:name=".uvindu"
             android:exported="true" />
         <activity
