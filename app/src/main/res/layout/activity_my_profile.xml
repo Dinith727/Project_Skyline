@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- side Bar -->
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MyProfile"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <!-- side Bar -->
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/cus_header"
+        app:menu="@menu/cus_main_menu"
+        android:layout_gravity="start"/>
+
+    <!-- side Bar -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </ScrollView>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MyProfile">
+
+    <Button
+        android:id="@+id/btn_myProAccount"
+        android:layout_width="164dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="128dp"
+        android:onClick="MyProfile"
+        android:text="@string/btn_myProAccount"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#86C232"
+        app:cornerRadius="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_headCusMyPro" />
+
+    <TextView
+        android:id="@+id/txt_headCusMyPro"
+        android:layout_width="254dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/txt_headCusMyPro"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <Button
+        android:id="@+id/btn_cusLocation"
+        android:layout_width="166dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="256dp"
+        android:onClick="MyLocation"
+        android:text="@string/btn_cusLocation"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#61892f"
+        app:cornerRadius="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_myProAccount"
+        app:layout_constraintVertical_bias="0.88" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_height="55dp"
+        android:onClick="cUS"
+        android:text="@string/button2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#61892f"
+        app:cornerRadius="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cusLocation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- side Bar -->
+</androidx.drawerlayout.widget.DrawerLayout>
