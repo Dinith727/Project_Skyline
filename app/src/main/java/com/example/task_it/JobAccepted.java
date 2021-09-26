@@ -1,14 +1,15 @@
 package com.example.task_it;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class uvindu extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class JobAccepted extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_uvindu);
+        setContentView(R.layout.jobaccepted);
     }
+
 }
