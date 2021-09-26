@@ -9,17 +9,43 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Taskit">
+
+
+
+        <activity
+            android:name=".EmpPayment"
+            android:exported="true" >
+
+
+
+
         <activity android:name=".Carpentry"></activity>
         <activity android:name=".AssignTask"></activity>
         <activity android:name=".EmpJob"></activity>
         <activity android:name=".JobAccepted"></activity>
         <activity android:name=".carpProfile">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".CusPayement"
+            android:exported="true" />
+        <activity
+            android:name=".EmployeeRating"
+            android:exported="true"/>
+
+        <activity
+            android:name=".ProgressBar2"
+            android:exported="true"/>
+        <activity
+            android:name=".Splash"
+            android:exported="true"/>
+
 
     </application>
 
