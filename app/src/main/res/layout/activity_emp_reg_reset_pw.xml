@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".EmpRegResetPw">
+
+    <TextView
+        android:id="@+id/Phoneqwe"
+        android:layout_width="428dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="144dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/subhead5"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/head5"
+        android:layout_width="203dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/head"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/txtreset5"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/inputphone"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Phoneqwe" />
+
+    <EditText
+        android:id="@+id/inputphone5"
+        android:layout_width="201dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@drawable/rounded_corner_view"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="@string/inputphone5"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/inputphone"
+        android:layout_width="201dp"
+        android:layout_height="49dp"
+        android:background="@drawable/rounded_corner_view"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:inputType="textPersonName|phone"
+        android:text="@string/inputphone5"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtreset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/txtreset"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/inputphone2"
+        android:layout_width="201dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@drawable/rounded_corner_view"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:inputType="textPersonName|phone"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnlog1"
+        android:layout_width="126dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="68dp"
+        android:onClick="Send"
+        android:text="@string/btnlog11"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#86C232"
+        app:cornerRadius="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputphone5"
+        app:layout_constraintVertical_bias="0.919" />
+
+    <Button
+        android:id="@+id/btnbackre5"
+        android:layout_width="103dp"
+        android:layout_height="55dp"
+        android:onClick="Back"
+        android:text="@string/btnbackre5"
+        android:textSize="16sp"
+        app:backgroundTint="#61892f"
+        app:cornerRadius="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnlog1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="68dp"
+        android:text="NIC"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/inputphone2"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtreset" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="76dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="56dp"
+        android:text="Email"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/inputphone5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
