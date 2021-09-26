@@ -71,4 +71,15 @@
     <string name="txtreset22">NIC</string>
     <string name="btnlog11">Reset</string>
     <string name="Phoneqwe">Reset Password</string>
+    <string name="btn_carpentry">Carpentry</string>
+    <string name="btn_chef">Chef</string>
+    <string name="btn_cleaning">Cleaning</string>
+    <string name="btn_courier">Courier</string>
+    <string name="btn_electric">Electrical Service</string>
+    <string name="btn_gardening">Gardening</string>
+    <string name="btn_painting">Painting</string>
+    <string name="btn_plumbing">Plumbing</string>
+    <string name="btn_welding">Welding</string>
+    <string name="btn_watchman">Watchman</string>
+    <string name="btn_pest">PEST CONTROL</string>
 </resources>
