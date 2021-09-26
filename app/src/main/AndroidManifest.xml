@@ -9,34 +9,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Taskit">
-        <activity
-            android:name=".MainActivity2"
-            android:exported="true" />
-      
-      
-         <activity
-          android:name=".Oshidhie"
-          android:exported="true" />
-      
-      
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"/>
-                  <activity
-            android:name=".uvinduback"
-            android:exported="true" />
-        <activity
-            android:name=".uvindu"
-            android:exported="true" />
-     
 
-          
+
+        <activity
+            android:name=".EmpPayment"
+            android:exported="true" >
+
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CusPayement"
+            android:exported="true" />
+        <activity
+            android:name=".EmployeeRating"
+            android:exported="true"/>
+
+        <activity
+            android:name=".ProgressBar2"
+            android:exported="true"/>
+        <activity
+            android:name=".Splash"
+            android:exported="true"/>
+
     </application>
 
 </manifest>

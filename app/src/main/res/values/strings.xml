@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Task-it</string>
+    <string name="txt_head">Awesome. I love it</string>
+    <string name="txt_head1">We hope you Satisfied with our service</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_completed">Completed</string>
+    <string name="txt_jobprog">Job Progress</string>
 </resources>
