@@ -9,34 +9,41 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Taskit">
-        <activity
-            android:name=".MainActivity2"
-            android:exported="true" />
-      
-      
-         <activity
-          android:name=".Oshidhie"
-          android:exported="true" />
-      
-      
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"/>
-                  <activity
-            android:name=".uvinduback"
-            android:exported="true" />
-        <activity
-            android:name=".uvindu"
-            android:exported="true">
-     
 
-          
+        <activity
+            android:name=".EmpResetPw"
+            android:exported="true" />
+        <activity
+            android:name=".EmpProfUp"
+            android:exported="true" />
+        <activity
+            android:name=".EmpProfile"
+            android:exported="true" />
+        <activity
+            android:name=".EmpPwConfig"
+            android:exported="true" />
+        <activity
+            android:name=".EmpRegSuccess"
+            android:exported="true" />
+        <activity
+            android:name=".EmpRegResetPw"
+            android:exported="true" />
+        <activity
+            android:name=".EmpRegEn"
+            android:exported="true" />
+        <activity
+            android:name=".empRegAccept"
+            android:exported="true" />
+        <activity
+            android:name=".EmpLogin"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
