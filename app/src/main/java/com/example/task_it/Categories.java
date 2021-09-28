@@ -14,19 +14,15 @@ public class Categories extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.categories);
 
-        //declare carpentry button
-        Button btnCar = findViewById(R.id.Carpentry);
+    }
 
-        //create onClickListener for carpentry button
-        btnCar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent (Categories.this, Carpentry.class);
-                startActivity(intent);
-            }
-        });
+    public void showCarpentry(View v) {
+        Intent intent = new Intent (Categories.this, Carpentry.class);
+        startActivity(intent);
+    }
 
-
-
+    public void showElectrician(View v) {
+        Intent intent = new Intent (Categories.this, Electrician.class);
+        startActivity(intent);
     }
 }

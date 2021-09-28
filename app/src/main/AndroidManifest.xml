@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Taskit">
         <activity android:name=".Carpentry"></activity>
+        <activity android:name=".Electrician"></activity>
         <activity android:name=".AssignTask"></activity>
         <activity android:name=".EmpJob"></activity>
         <activity android:name=".JobAccepted"></activity>

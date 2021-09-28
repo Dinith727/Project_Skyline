@@ -24,6 +24,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Taskit" >
         <activity android:name="com.example.task_it.Carpentry" />
+        <activity android:name="com.example.task_it.Electrician" />
         <activity android:name="com.example.task_it.AssignTask" />
         <activity android:name="com.example.task_it.EmpJob" />
         <activity android:name="com.example.task_it.JobAccepted" />
