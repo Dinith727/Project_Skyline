@@ -1,10 +1,13 @@
 package com.example.task_it;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -38,6 +41,15 @@ public class carpAdapter extends RecyclerView.Adapter<carpAdapter.CarpViewHolder
         holder.name.setText(c1.getName());
         holder.location.setText(c1.getLocation());
         holder.fee.setText(c1.getFee());
+        holder.view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, carpProfile.class);
+                context.startActivity(intent);
+
+            }
+        });
+
 
     }
 
@@ -49,6 +61,7 @@ public class carpAdapter extends RecyclerView.Adapter<carpAdapter.CarpViewHolder
     public static class CarpViewHolder extends RecyclerView.ViewHolder{
 
         TextView name, location, fee;
+        Button view;
 
         public CarpViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -56,9 +69,15 @@ public class carpAdapter extends RecyclerView.Adapter<carpAdapter.CarpViewHolder
             name = itemView.findViewById(R.id.carpName);
             location = itemView.findViewById(R.id.carpLocation);
             fee = itemView.findViewById(R.id.carpFee);
+            view = itemView.findViewById(R.id.view);
         }
 
 
+    }
+
+    public void showProfile (View v){
+        Intent i = new Intent(v.getContext(), carpProfile.class);
+        v.getContext().startActivity(i);
     }
 
 

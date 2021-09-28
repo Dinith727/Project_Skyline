@@ -13,7 +13,8 @@
         <activity android:name=".AssignTask"></activity>
         <activity android:name=".EmpJob"></activity>
         <activity android:name=".JobAccepted"></activity>
-        <activity android:name=".carpProfile">
+        <activity android:name=".carpProfile"></activity>
+        <activity android:name=".Categories">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,9 +1,10 @@
 package com.example.task_it;
-//String s = getIntent().getStringExtra("ref")
+
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,10 +17,15 @@ import com.google.firebase.database.ValueEventListener;
 
 public class EmpJob extends AppCompatActivity {
 
+    TextView jobDesc;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.empjob);
+        String s = getIntent().getStringExtra("desc");
+        jobDesc = findViewById(R.id.jobDesc);
+        jobDesc.setText(s) ;
     }
 
     public void updateStatus(View view) {
