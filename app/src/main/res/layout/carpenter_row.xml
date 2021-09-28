@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
-    android:background="#599C9C9C"
+    android:background="#59818080"
     app:cardCornerRadius="8dp"
     app:cardElevation="8dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#00FFFFFF"
+        android:background="#7C7C7C"
         android:orientation="vertical">
 
         <TextView

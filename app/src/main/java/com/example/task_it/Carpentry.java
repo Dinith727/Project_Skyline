@@ -24,7 +24,8 @@ public class Carpentry extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.carpentry);
+        setContentView(R.layout.categorylist);
+
 
         rv = findViewById(R.id.carpList);
         database = FirebaseDatabase.getInstance().getReference("Employee");
@@ -35,7 +36,7 @@ public class Carpentry extends AppCompatActivity {
         carpAd = new com.example.task_it.carpAdapter(this, list);
         rv.setAdapter(carpAd);
 
-        database.addValueEventListener(new ValueEventListener() {
+        database.orderByChild("category").equalTo("carpentry").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull  DataSnapshot snapshot) {
                 for(DataSnapshot dataSnapshot : snapshot.getChildren()){

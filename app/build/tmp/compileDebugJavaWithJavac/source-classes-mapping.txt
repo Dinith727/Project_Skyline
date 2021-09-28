@@ -1,29 +1,50 @@
-com/example/task_it/BuildConfig.java
- com.example.task_it.BuildConfig
-com/example/task_it/Favourites.java
- com.example.task_it.Favourites
-com/example/task_it/carpDetails.java
- com.example.task_it.carpDetails
+com/example/task_it/job.java
+ com.example.task_it.job
+com/example/task_it/JobAccepted.java
+ com.example.task_it.JobAccepted
+com/example/task_it/Timec.java
+ com.example.task_it.Timec
+com/example/task_it/Electrician.java
+ com.example.task_it.Electrician
+ com.example.task_it.Electrician$1
 com/example/task_it/Employee.java
  com.example.task_it.Employee
+com/example/task_it/ProgressBar2.java
+ com.example.task_it.ProgressBar2
+ com.example.task_it.ProgressBar2$1
+com/example/task_it/Carpentry.java
+ com.example.task_it.Carpentry
+ com.example.task_it.Carpentry$1
+com/example/task_it/EmpJob.java
+ com.example.task_it.EmpJob
+ com.example.task_it.EmpJob$1
+com/example/task_it/EmpPayment.java
+ com.example.task_it.EmpPayment
+ com.example.task_it.EmpPayment$1
+com/example/task_it/Categories.java
+ com.example.task_it.Categories
+com/example/task_it/Splash.java
+ com.example.task_it.Splash
+ com.example.task_it.Splash$1
+com/example/task_it/EmployeeRating.java
+ com.example.task_it.EmployeeRating
+ com.example.task_it.EmployeeRating$1
+ com.example.task_it.EmployeeRating$2
+com/example/task_it/CusPayement.java
+ com.example.task_it.CusPayement
+com/example/task_it/Favourites.java
+ com.example.task_it.Favourites
+com/example/task_it/BuildConfig.java
+ com.example.task_it.BuildConfig
+com/example/task_it/carpDetails.java
+ com.example.task_it.carpDetails
 com/example/task_it/carpProfile.java
  com.example.task_it.carpProfile
  com.example.task_it.carpProfile$1
  com.example.task_it.carpProfile$2
-com/example/task_it/JobAccepted.java
- com.example.task_it.JobAccepted
-com/example/task_it/Categories.java
- com.example.task_it.Categories
- com.example.task_it.Categories$1
-com/example/task_it/AssignTask.java
- com.example.task_it.AssignTask
-com/example/task_it/EmpJob.java
- com.example.task_it.EmpJob
- com.example.task_it.EmpJob$1
 com/example/task_it/carpAdapter.java
  com.example.task_it.carpAdapter
  com.example.task_it.carpAdapter$1
  com.example.task_it.carpAdapter$CarpViewHolder
-com/example/task_it/Carpentry.java
- com.example.task_it.Carpentry
- com.example.task_it.Carpentry$1
+com/example/task_it/AssignTask.java
+ com.example.task_it.AssignTask

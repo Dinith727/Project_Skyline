@@ -34,6 +34,7 @@ public class carpProfile extends AppCompatActivity {
         fee = findViewById(R.id.fee_carp);
         jobs = findViewById(R.id.jobs_carp);
 
+
         DatabaseReference readRef = FirebaseDatabase.getInstance().getReference().child("Employee").child("emp1");
         readRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override

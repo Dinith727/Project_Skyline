@@ -22,8 +22,8 @@ public class EmpPayment extends AppCompatActivity {
         setContentView(R.layout.activity_emp_payment);
         desc = findViewById(R.id.desc);
         start = findViewById(R.id.start);
-        end = findViewById(R.id.endTime);
-        duration = findViewById(R.id.duration);
+        /*end = findViewById(R.id.endTime);
+        duration = findViewById(R.id.duration);*/
         DatabaseReference readRef = FirebaseDatabase.getInstance().getReference().child("Job").child("job1");
         readRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -31,8 +31,8 @@ public class EmpPayment extends AppCompatActivity {
                 if (snapshot.hasChildren()) {
                     desc.setText(snapshot.child("jobId").getValue().toString());
                     start.setText(snapshot.child("startTime").getValue().toString());
-                    end.setText(snapshot.child("endTime").getValue().toString());
-                    duration.setText(snapshot.child("Duration").getValue().toString());
+                    /*end.setText(snapshot.child("endTime").getValue().toString());
+                    duration.setText(snapshot.child("Duration").getValue().toString());*/
                 } else
                     Toast.makeText(getApplicationContext(), "No source to display", Toast.LENGTH_SHORT).show(); }
             @Override
