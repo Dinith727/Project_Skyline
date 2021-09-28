@@ -1,3 +1,11 @@
+com/example/task_it/BuildConfig.java
+ com.example.task_it.BuildConfig
+com/example/task_it/Favourites.java
+ com.example.task_it.Favourites
+com/example/task_it/carpDetails.java
+ com.example.task_it.carpDetails
+com/example/task_it/Employee.java
+ com.example.task_it.Employee
 com/example/task_it/carpProfile.java
  com.example.task_it.carpProfile
  com.example.task_it.carpProfile$1
@@ -7,22 +15,15 @@ com/example/task_it/JobAccepted.java
 com/example/task_it/Categories.java
  com.example.task_it.Categories
  com.example.task_it.Categories$1
-com/example/task_it/carpAdapter.java
- com.example.task_it.carpAdapter
- com.example.task_it.carpAdapter$CarpViewHolder
-com/example/task_it/Favourites.java
- com.example.task_it.Favourites
-com/example/task_it/BuildConfig.java
- com.example.task_it.BuildConfig
-com/example/task_it/carpDetails.java
- com.example.task_it.carpDetails
+com/example/task_it/AssignTask.java
+ com.example.task_it.AssignTask
 com/example/task_it/EmpJob.java
  com.example.task_it.EmpJob
  com.example.task_it.EmpJob$1
+com/example/task_it/carpAdapter.java
+ com.example.task_it.carpAdapter
+ com.example.task_it.carpAdapter$1
+ com.example.task_it.carpAdapter$CarpViewHolder
 com/example/task_it/Carpentry.java
  com.example.task_it.Carpentry
  com.example.task_it.Carpentry$1
-com/example/task_it/Employee.java
- com.example.task_it.Employee
-com/example/task_it/AssignTask.java
- com.example.task_it.AssignTask
