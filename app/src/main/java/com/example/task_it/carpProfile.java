@@ -15,6 +15,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 public class carpProfile extends AppCompatActivity {
@@ -22,11 +23,14 @@ public class carpProfile extends AppCompatActivity {
     Button fav, assign;
     DatabaseReference dbRef;
 
+
+
     @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.carpprofile);
+        String phoneNo = getIntent().getStringExtra("Phone");
 
         name = findViewById(R.id.name_carp);
         location = findViewById(R.id.loc_carp);
@@ -36,12 +40,14 @@ public class carpProfile extends AppCompatActivity {
         jobs = findViewById(R.id.jobs_carp);
 
 
-        DatabaseReference readRef = FirebaseDatabase.getInstance().getReference().child("Employee").child("emp1");
-        readRef.addListenerForSingleValueEvent(new ValueEventListener() {
+        dbRef = FirebaseDatabase.getInstance().getReference("Employee").child(phoneNo);
+
+        dbRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                if (snapshot.hasChildren()) {
-                    name.setText(snapshot.child("name").getValue().toString());
+
+                if (snapshot.getChildrenCount() > 0) {
+                    name.setText(snapshot.child("firstName").getValue().toString());
                     location.setText(snapshot.child("location").getValue().toString());
                     telNo.setText(snapshot.child("telNo").getValue().toString());
                     status.setText(snapshot.child("status").getValue().toString());
@@ -55,6 +61,25 @@ public class carpProfile extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError error) {
             }
         });
+       /* Query query = readRef.orderByChild("_age").equalTo("20");
+        query.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if (dataSnapshot.getChildrenCount() > 0){
+                    String a = "";
+                    int count = (int)dataSnapshot.getChildrenCount();
+                    for(DataSnapshot child : dataSnapshot.getChildren()){
+                        Emergency value = child.getValue(Emergency.class);
+                        a = a + value.get_name() + "\n";
+                    }
+                    tSResult.setText(count + "\n" + a);
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+            }
+        });*/
 
     }
 
@@ -83,11 +108,14 @@ public class carpProfile extends AppCompatActivity {
 
     public void assign(View v) {
         String stat = status.getText().toString().trim();
+        String phone = telNo.getText().toString().trim();
+
 
         if (stat.equalsIgnoreCase("busy")) {
             Toast.makeText(getApplicationContext(), "Status: Busy. Employee Unavailable", Toast.LENGTH_SHORT).show();
         } else {
             Intent intent = new Intent(carpProfile.this, com.example.task_it.AssignTask.class);
+            intent.putExtra("tel", phone);
             startActivity(intent);
         }
 

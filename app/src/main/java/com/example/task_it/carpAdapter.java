@@ -40,17 +40,16 @@ public class carpAdapter extends RecyclerView.Adapter<carpAdapter.CarpViewHolder
     public void onBindViewHolder(@NonNull  CarpViewHolder holder, int position) {
 
         carpDetails c1 = list.get(position);
-        holder.name.setText(c1.getName());
+        holder.firstName.setText(c1.getFirstName());
         holder.location.setText(c1.getLocation());
         holder.fee.setText(c1.getFee());
         holder.telNo.setText(c1.getTelNo());
         holder.view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 Intent intent = new Intent(context, carpProfile.class);
-                //intent.putExtra("Phone", telNo);
-                context.startActivity(intent);
+                intent.putExtra("Phone", c1.getTelNo().toString());
+                v.getContext().startActivity(intent);
 
             }
         });
@@ -65,14 +64,14 @@ public class carpAdapter extends RecyclerView.Adapter<carpAdapter.CarpViewHolder
 
     public static class CarpViewHolder extends RecyclerView.ViewHolder{
 
-        TextView name, location, fee, telNo;
+        TextView firstName, location, fee, telNo;
         Button view;
 
 
         public CarpViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            name = itemView.findViewById(R.id.carpName);
+            firstName = itemView.findViewById(R.id.carpName);
             location = itemView.findViewById(R.id.carpLocation);
             fee = itemView.findViewById(R.id.carpFee);
             telNo = itemView.findViewById(R.id.telNo);

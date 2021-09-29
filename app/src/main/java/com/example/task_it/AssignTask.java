@@ -17,6 +17,7 @@ public class AssignTask extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.assigntask);
         description = findViewById(R.id.desc);
 
@@ -30,8 +31,10 @@ public class AssignTask extends AppCompatActivity {
 
     public void assign(View v) {
         desc = description.getText().toString().trim();
+        String s = getIntent().getStringExtra("tel");
         Intent intent = new Intent (AssignTask.this, EmpJob.class);
         intent.putExtra("desc", desc);
+        intent.putExtra("tel", s);
         startActivity(intent);
 
     }

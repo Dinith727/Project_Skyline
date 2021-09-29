@@ -2,10 +2,10 @@ package com.example.task_it;
 
 public class carpDetails {
 
-    String name, location, fee, telNo;
+    String firstName, location, fee, telNo;
 
-    public String getName() {
-        return name;
+    public String getFirstName() {
+        return firstName;
     }
 
     public String getLocation() {
