@@ -21,6 +21,7 @@ public class carpProfile extends AppCompatActivity {
     TextView name, location, telNo, status, fee, jobs;
     Button fav, assign;
     DatabaseReference dbRef;
+
     @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,9 +48,12 @@ public class carpProfile extends AppCompatActivity {
                     fee.setText(snapshot.child("fee").getValue().toString());
                     jobs.setText(snapshot.child("jobs").getValue().toString());
                 } else
-                    Toast.makeText(getApplicationContext(), "No source to display", Toast.LENGTH_SHORT).show(); }
+                    Toast.makeText(getApplicationContext(), "No source to display", Toast.LENGTH_SHORT).show();
+            }
+
             @Override
-            public void onCancelled(@NonNull DatabaseError error) { }
+            public void onCancelled(@NonNull DatabaseError error) {
+            }
         });
 
     }
@@ -78,7 +82,15 @@ public class carpProfile extends AppCompatActivity {
     }
 
     public void assign(View v) {
-        Intent intent = new Intent (carpProfile.this, com.example.task_it.AssignTask.class);
-        startActivity(intent);
+        String stat = status.getText().toString().trim();
+
+        if (stat.equalsIgnoreCase("busy")) {
+            Toast.makeText(getApplicationContext(), "Status: Busy. Employee Unavailable", Toast.LENGTH_SHORT).show();
+        } else {
+            Intent intent = new Intent(carpProfile.this, com.example.task_it.AssignTask.class);
+            startActivity(intent);
+        }
+
     }
+
 }

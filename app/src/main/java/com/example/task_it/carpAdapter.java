@@ -22,6 +22,7 @@ public class carpAdapter extends RecyclerView.Adapter<carpAdapter.CarpViewHolder
     public carpAdapter(Context context, ArrayList<carpDetails> list) {
         this.context = context;
         this.list = list;
+
     }
 
 
@@ -34,6 +35,7 @@ public class carpAdapter extends RecyclerView.Adapter<carpAdapter.CarpViewHolder
         return new CarpViewHolder(v);
     }
 
+
     @Override
     public void onBindViewHolder(@NonNull  CarpViewHolder holder, int position) {
 
@@ -41,10 +43,13 @@ public class carpAdapter extends RecyclerView.Adapter<carpAdapter.CarpViewHolder
         holder.name.setText(c1.getName());
         holder.location.setText(c1.getLocation());
         holder.fee.setText(c1.getFee());
+        holder.telNo.setText(c1.getTelNo());
         holder.view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent intent = new Intent(context, carpProfile.class);
+                //intent.putExtra("Phone", telNo);
                 context.startActivity(intent);
 
             }
@@ -60,8 +65,9 @@ public class carpAdapter extends RecyclerView.Adapter<carpAdapter.CarpViewHolder
 
     public static class CarpViewHolder extends RecyclerView.ViewHolder{
 
-        TextView name, location, fee;
+        TextView name, location, fee, telNo;
         Button view;
+
 
         public CarpViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -69,16 +75,14 @@ public class carpAdapter extends RecyclerView.Adapter<carpAdapter.CarpViewHolder
             name = itemView.findViewById(R.id.carpName);
             location = itemView.findViewById(R.id.carpLocation);
             fee = itemView.findViewById(R.id.carpFee);
+            telNo = itemView.findViewById(R.id.telNo);
             view = itemView.findViewById(R.id.view);
+
         }
 
 
     }
 
-    public void showProfile (View v){
-        Intent i = new Intent(v.getContext(), carpProfile.class);
-        v.getContext().startActivity(i);
-    }
 
 
 }

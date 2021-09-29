@@ -2,7 +2,7 @@ package com.example.task_it;
 
 public class carpDetails {
 
-    String name, location, fee, nic;
+    String name, location, fee, telNo;
 
     public String getName() {
         return name;
@@ -18,8 +18,8 @@ public class carpDetails {
         return fee;
     }
 
-    public String getNic() {
+    public String getTelNo() {
 
-        return nic;
+        return telNo;
     }
 }
