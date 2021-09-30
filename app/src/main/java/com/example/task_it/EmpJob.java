@@ -4,6 +4,8 @@ package com.example.task_it;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,6 +21,7 @@ import com.google.firebase.database.ValueEventListener;
 public class EmpJob extends AppCompatActivity {
 
     TextView jobDesc;
+    Animation anim1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +30,32 @@ public class EmpJob extends AppCompatActivity {
         String s = getIntent().getStringExtra("desc");
         jobDesc = findViewById(R.id.jobDesc);
         jobDesc.setText(s) ;
+        anim1 = AnimationUtils.loadAnimation(getApplicationContext(),
+                R.anim.slideup);
+        jobDesc.startAnimation(anim1);
     }
 
     public void updateStatus(View view) {
+
+        DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("Job");
+        dbRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                CreateJob j1 = new CreateJob();
+                j1.setJobname(jobDesc.getText().toString().trim());
+               // j1.setDate(.getText().toString().trim());
+
+                dbRef.child(j1.getJobname()).setValue(j1);
+                Toast.makeText(getApplicationContext(), "Added to favourites", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+
 
         DatabaseReference upRef = FirebaseDatabase.getInstance().getReference().child("Employee").child("emp1");
         upRef.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -50,7 +76,7 @@ public class EmpJob extends AppCompatActivity {
     }
 
     public void redirect(View view){
-        Intent intent = new Intent (EmpJob.this, com.example.task_it.Carpentry.class);
+        Intent intent = new Intent (EmpJob.this, com.example.task_it.Categories.class);
         startActivity(intent);
     }
 }
