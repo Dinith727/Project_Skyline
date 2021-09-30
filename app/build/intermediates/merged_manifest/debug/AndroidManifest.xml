@@ -25,11 +25,11 @@
         android:theme="@style/Theme.Taskit" >
         <activity android:name="com.example.task_it.Carpentry" />
         <activity android:name="com.example.task_it.Electrician" />
-        <!-- <activity android:name=".AssignTask"></activity> -->
+        <activity android:name="com.example.task_it.AssignTask" />
         <activity android:name="com.example.task_it.EmpJob" />
         <activity android:name="com.example.task_it.JobAccepted" />
         <activity android:name="com.example.task_it.carpProfile" />
-        <activity android:name="com.example.task_it.AssignTask" >
+        <activity android:name="com.example.task_it.Categories" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
