@@ -102,7 +102,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/jobImg"
         android:layout_width="246dp"
         android:layout_height="240dp"
 

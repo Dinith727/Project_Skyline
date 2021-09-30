@@ -3,6 +3,9 @@ package com.example.task_it;
 import android.os.Bundle;
 import android.text.format.DateUtils;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,6 +19,8 @@ import java.util.Date;
 public class JobAccepted extends AppCompatActivity {
 
     TextView accTime, eta1;
+    Animation anim;
+    ImageView img;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +28,12 @@ public class JobAccepted extends AppCompatActivity {
         setContentView(R.layout.jobaccepted);
 
         accTime = findViewById(R.id.accTime);
+        img = findViewById(R.id.jobImg);
         eta1 = findViewById(R.id.eta);
+        anim = AnimationUtils.loadAnimation(getApplicationContext(),
+                R.anim.move);
+
+        img.startAnimation(anim);
 
         DateFormat df = new SimpleDateFormat("hh.mm aa");
         String date = df.format(Calendar.getInstance().getTime());
