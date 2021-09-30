@@ -43,9 +43,7 @@
 27        <activity android:name="com.example.task_it.Electrician" />
 27-->C:\MAD\app\src\main\AndroidManifest.xml:13:9-58
 27-->C:\MAD\app\src\main\AndroidManifest.xml:13:19-46
-28        <activity android:name="com.example.task_it.AssignTask" />
-28-->C:\MAD\app\src\main\AndroidManifest.xml:14:9-57
-28-->C:\MAD\app\src\main\AndroidManifest.xml:14:19-45
+28        <!-- <activity android:name=".AssignTask"></activity> -->
 29        <activity android:name="com.example.task_it.EmpJob" />
 29-->C:\MAD\app\src\main\AndroidManifest.xml:15:9-53
 29-->C:\MAD\app\src\main\AndroidManifest.xml:15:19-41
@@ -55,7 +53,7 @@
 31        <activity android:name="com.example.task_it.carpProfile" />
 31-->C:\MAD\app\src\main\AndroidManifest.xml:17:9-58
 31-->C:\MAD\app\src\main\AndroidManifest.xml:17:19-46
-32        <activity android:name="com.example.task_it.Categories" >
+32        <activity android:name="com.example.task_it.AssignTask" >
 32-->C:\MAD\app\src\main\AndroidManifest.xml:18:9-24:20
 32-->C:\MAD\app\src\main\AndroidManifest.xml:18:19-45
 33            <intent-filter>
