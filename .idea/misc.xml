@@ -3,20 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MAD/app/src/main/res/layout/assigntask.xml" value="0.2" />
-        <entry key="..\:/MAD/app/src/main/res/layout/carpenter_row.xml" value="0.20854700854700856" />
-        <entry key="..\:/MAD/app/src/main/res/layout/carpentry.xml" value="0.20854700854700856" />
-        <entry key="..\:/MAD/app/src/main/res/layout/carpprofile.xml" value="0.20854700854700856" />
-        <entry key="..\:/MAD/app/src/main/res/layout/categories.xml" value="0.3691376701966717" />
-        <entry key="..\:/MAD/app/src/main/res/layout/empjob.xml" value="0.20854700854700856" />
-        <entry key="..\:/MAD/app/src/main/res/layout/jobaccepted.xml" value="0.4" />
+        <entry key="..\:/MAD/app/src/main/res/layout/assigntask.xml" value="0.4" />
+        <entry key="..\:/MAD/app/src/main/res/layout/test.xml" value="0.20854700854700856" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

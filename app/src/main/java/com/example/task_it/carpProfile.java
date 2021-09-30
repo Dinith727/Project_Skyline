@@ -61,25 +61,7 @@ public class carpProfile extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError error) {
             }
         });
-       /* Query query = readRef.orderByChild("_age").equalTo("20");
-        query.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                if (dataSnapshot.getChildrenCount() > 0){
-                    String a = "";
-                    int count = (int)dataSnapshot.getChildrenCount();
-                    for(DataSnapshot child : dataSnapshot.getChildren()){
-                        Emergency value = child.getValue(Emergency.class);
-                        a = a + value.get_name() + "\n";
-                    }
-                    tSResult.setText(count + "\n" + a);
-                }
-            }
 
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-            }
-        });*/
 
     }
 

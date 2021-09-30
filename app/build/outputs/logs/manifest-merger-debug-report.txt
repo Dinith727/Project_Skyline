@@ -114,10 +114,6 @@ activity#com.example.task_it.Electrician
 ADDED from C:\MAD\app\src\main\AndroidManifest.xml:13:9-58
 	android:name
 		ADDED from C:\MAD\app\src\main\AndroidManifest.xml:13:19-46
-activity#com.example.task_it.AssignTask
-ADDED from C:\MAD\app\src\main\AndroidManifest.xml:14:9-57
-	android:name
-		ADDED from C:\MAD\app\src\main\AndroidManifest.xml:14:19-45
 activity#com.example.task_it.EmpJob
 ADDED from C:\MAD\app\src\main\AndroidManifest.xml:15:9-53
 	android:name
@@ -130,7 +126,7 @@ activity#com.example.task_it.carpProfile
 ADDED from C:\MAD\app\src\main\AndroidManifest.xml:17:9-58
 	android:name
 		ADDED from C:\MAD\app\src\main\AndroidManifest.xml:17:19-46
-activity#com.example.task_it.Categories
+activity#com.example.task_it.AssignTask
 ADDED from C:\MAD\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:name
 		ADDED from C:\MAD\app\src\main\AndroidManifest.xml:18:19-45
