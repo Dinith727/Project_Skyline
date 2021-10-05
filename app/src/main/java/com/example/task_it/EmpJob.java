@@ -65,7 +65,8 @@ public class EmpJob extends AppCompatActivity {
                 j1.setStatus("Accepted");
                 j1.setFeedback("");
                 j1.setFee("");
-                j1.setStartTime(eta);
+                j1.setStartTime("");
+                j1.setAcceptedTime(eta);
                 j1.setEndTime("");
                 j1.setDuration("");
                 j1.setRating("");

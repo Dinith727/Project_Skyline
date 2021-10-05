@@ -9,6 +9,7 @@ public class CreateJob {
     private String Fee;
     private String emp;
     private String startTime;
+    private String acceptedTime;
     private String endTime;
     private String Duration;
     private String Rating;
@@ -16,6 +17,14 @@ public class CreateJob {
 
     public String getJobid() {
         return Jobid;
+    }
+
+    public String getAcceptedTime() {
+        return acceptedTime;
+    }
+
+    public void setAcceptedTime(String acceptedTime) {
+        this.acceptedTime = acceptedTime;
     }
 
     public void setJobid(String jobid) {
