@@ -34,12 +34,6 @@
             android:name=".CusNewLocation"
             android:exported="true" />
         <activity
-            android:name=".CusShowJobHistory"
-            android:exported="true" />
-        <activity
-            android:name=".CusFavourites"
-            android:exported="true" />
-        <activity
             android:name=".CusLocUpdate"
             android:exported="true" />
         <activity
@@ -63,6 +57,17 @@
         <activity
             android:name=".LoginPage_Cus"
             android:exported="true" />
+
+        <activity android:name=".Carpentry"></activity>
+        <activity android:name=".Electrician"></activity>
+        <activity android:name=".AssignTask"></activity>
+        <activity android:name=".EmpJob"></activity>
+        <activity android:name=".JobAccepted"></activity>
+        <activity android:name=".carpProfile"></activity>
+        <activity android:name=".Categories">
+        </activity>
+
     </application>
 
 </manifest>
+

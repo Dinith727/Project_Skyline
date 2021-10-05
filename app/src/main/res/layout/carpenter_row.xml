@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="357dp"
+    android:layout_height="150dp"
+    android:layout_margin="16dp"
+    android:background="#59818080"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="357dp"
+        android:layout_height="match_parent"
+        android:background="#7C7C7C"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/telNo"
+        app:layout_constraintStart_toEndOf="@+id/telNo">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="149dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/emp" />
+
+
+        <TextView
+            android:id="@+id/carpName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="15dp"
+            android:text="Arya"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/carpLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SriLanka"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/carpName"
+            app:layout_constraintTop_toBottomOf="@+id/carpName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="69dp"
+            android:text="Average rate: "
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/carpFee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="267dp"
+            android:layout_marginTop="70dp"
+            android:background="#00FFFFFF"
+            android:text="LKR 0.00"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/telNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginBottom="26dp"
+            android:text="123"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/view"
+            android:layout_width="72dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="97dp"
+            android:layout_marginEnd="10dp"
+            android:text="View "
+            android:textSize="10sp"
+            app:backgroundTint="#61892f"
+            app:cornerRadius="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </Button>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+

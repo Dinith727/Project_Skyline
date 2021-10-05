@@ -56,7 +56,7 @@ public class LoginPage_Cus extends AppCompatActivity {
 
     public void Login(View view){
 
-        Intent inte = new Intent(this,MyProfile.class);
+        Intent inte = new Intent(this,Categories.class);
         DatabaseReference logRef = FirebaseDatabase.getInstance().getReference().child("Customer");
         DatabaseReference passRef = logRef.child(phone.getText().toString());
         logRef.addListenerForSingleValueEvent(new ValueEventListener() {

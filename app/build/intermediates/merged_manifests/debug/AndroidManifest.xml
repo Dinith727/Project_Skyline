@@ -48,12 +48,6 @@
             android:name="com.example.task_it.CusNewLocation"
             android:exported="true" />
         <activity
-            android:name="com.example.task_it.CusShowJobHistory"
-            android:exported="true" />
-        <activity
-            android:name="com.example.task_it.CusFavourites"
-            android:exported="true" />
-        <activity
             android:name="com.example.task_it.CusLocUpdate"
             android:exported="true" />
         <activity
@@ -77,6 +71,14 @@
         <activity
             android:name="com.example.task_it.LoginPage_Cus"
             android:exported="true" />
+        <activity android:name="com.example.task_it.Carpentry" />
+        <activity android:name="com.example.task_it.Electrician" />
+        <activity android:name="com.example.task_it.AssignTask" />
+        <activity android:name="com.example.task_it.EmpJob" />
+        <activity android:name="com.example.task_it.JobAccepted" />
+        <activity android:name="com.example.task_it.carpProfile" />
+        <activity android:name="com.example.task_it.Categories" >
+        </activity>
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

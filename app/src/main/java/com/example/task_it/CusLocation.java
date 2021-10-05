@@ -106,8 +106,8 @@ public class CusLocation extends AppCompatActivity implements NavigationView.OnN
 
         switch (item.getItemId()) {
             case R.id.nav_cat:
-//                Intent in=new Intent(this,updateUser.class);
-//                startActivity(in);
+                Intent in=new Intent(this,Categories.class);
+                startActivity(in);
                 break;
             case R.id.nav_pri:
 //                Intent inte=new Intent(this,CustomerCare.class);

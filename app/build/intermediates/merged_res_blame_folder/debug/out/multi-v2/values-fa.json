@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
+            "outputFile": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Oshid\\.gradle\\caches\\transforms-3\\736795ced1125049463359fb87a935ed\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-fa\\values.xml",
