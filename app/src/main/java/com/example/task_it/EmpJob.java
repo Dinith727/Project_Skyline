@@ -83,7 +83,7 @@ public class EmpJob extends AppCompatActivity {
         });
 
 
-        DatabaseReference upRef = FirebaseDatabase.getInstance().getReference().child("Employee").child("emp1");
+        DatabaseReference upRef = FirebaseDatabase.getInstance().getReference().child("Employee").child(phone1);
         upRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {

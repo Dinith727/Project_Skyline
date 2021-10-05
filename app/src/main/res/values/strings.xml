@@ -90,5 +90,7 @@
     <string name="btn_welding">Welding</string>
     <string name="btn_watchman">Watchman</string>
     <string name="btn_pest">PEST CONTROL</string>
+    <string name="btn_watch">WATCHAMN</string>
+    <string name="btn_yoga">YOGA INSTRUCTOR</string>
 
 </resources>

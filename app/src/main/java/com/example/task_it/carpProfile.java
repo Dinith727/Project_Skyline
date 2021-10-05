@@ -46,7 +46,7 @@ public class carpProfile extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
 
-                if (snapshot.getChildrenCount() > 0) {
+                if (snapshot.getChildrenCount() >= 0) {
                     name.setText(snapshot.child("firstName").getValue().toString());
                     location.setText(snapshot.child("location").getValue().toString());
                     telNo.setText(snapshot.child("telNo").getValue().toString());
