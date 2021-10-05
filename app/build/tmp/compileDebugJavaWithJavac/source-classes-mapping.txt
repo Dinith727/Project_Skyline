@@ -8,8 +8,9 @@ com/example/task_it/carpDetails.java
  com.example.task_it.carpDetails
 com/example/task_it/Favourites.java
  com.example.task_it.Favourites
-com/example/task_it/CreateJob.java
- com.example.task_it.CreateJob
+com/example/task_it/Electrician.java
+ com.example.task_it.Electrician
+ com.example.task_it.Electrician$1
 com/example/task_it/EmpDisplay.java
  com.example.task_it.EmpDisplay
 com/example/task_it/BuildConfig.java
@@ -31,9 +32,8 @@ com/example/task_it/ProgressBar2.java
 com/example/task_it/Carpentry.java
  com.example.task_it.Carpentry
  com.example.task_it.Carpentry$1
-com/example/task_it/AssignTask.java
- com.example.task_it.AssignTask
- com.example.task_it.AssignTask$1
+com/example/task_it/CusPayement.java
+ com.example.task_it.CusPayement
 com/example/task_it/EmpPayment.java
  com.example.task_it.EmpPayment
  com.example.task_it.EmpPayment$1
@@ -48,12 +48,12 @@ com/example/task_it/EmployeeRating.java
  com.example.task_it.EmployeeRating
  com.example.task_it.EmployeeRating$1
  com.example.task_it.EmployeeRating$2
-com/example/task_it/CusPayement.java
- com.example.task_it.CusPayement
+com/example/task_it/CreateJob.java
+ com.example.task_it.CreateJob
 com/example/task_it/EmpJob.java
  com.example.task_it.EmpJob
  com.example.task_it.EmpJob$1
  com.example.task_it.EmpJob$2
-com/example/task_it/Electrician.java
- com.example.task_it.Electrician
- com.example.task_it.Electrician$1
+com/example/task_it/AssignTask.java
+ com.example.task_it.AssignTask
+ com.example.task_it.AssignTask$1
