@@ -22,155 +22,174 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/background"
-        android:fillViewport="false"
-        android:orientation="vertical"
-        android:padding="10dp"
-        tools:context=".EmpProfUp">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".EmpProfUp">
 
-        <Button
-            android:id="@+id/resetvals"
-            android:layout_width="118dp"
-            android:layout_height="55dp"
-            android:layout_marginTop="100dp"
-            android:onClick="reset"
-            android:text="@string/resetvals"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            app:backgroundTint="#61892f"
-            app:cornerRadius="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/savechan"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/setloc"
-            tools:ignore="TextContrastCheck" />
+    <Button
+        android:id="@+id/resetvals"
+        android:layout_width="118dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="100dp"
+        android:onClick="reset"
+        android:text="@string/resetvals"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#61892f"
+        app:cornerRadius="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/savechan"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setloc"
+        tools:ignore="TextContrastCheck" />
 
-        <Button
-            android:id="@+id/savechan"
-            android:layout_width="132dp"
-            android:layout_height="55dp"
-            android:onClick="save"
-            android:text="@string/savechan"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            app:backgroundTint="#86C232"
-            app:cornerRadius="16sp"
-            app:layout_constraintBaseline_toBaselineOf="@+id/resetvals"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/resetvals" />
+    <Button
+        android:id="@+id/savechan"
+        android:layout_width="132dp"
+        android:layout_height="55dp"
+        android:onClick="save"
+        android:text="@string/savechan"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#86C232"
+        app:cornerRadius="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/resetvals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/resetvals" />
 
-        <TextView
-            android:id="@+id/eq"
-            android:layout_width="149dp"
-            android:layout_height="43dp"
-            android:layout_marginTop="56dp"
-            android:fontFamily="sans-serif"
-            android:text="@string/eq"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/tvPri"
-            app:layout_constraintEnd_toStartOf="@+id/equp"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nameProf"
-            app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/eq"
+        android:layout_width="149dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/eq"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvPri"
+        app:layout_constraintEnd_toStartOf="@+id/equp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameProf"
+        app:layout_constraintVertical_bias="0.0" />
 
-        <TextView
-            android:id="@+id/nameProf"
-            android:layout_width="257dp"
-            android:layout_height="75dp"
-            android:layout_marginTop="8dp"
-            android:fontFamily="sans-serif"
-            android:gravity="center"
-            android:text="@string/nameProf"
-            android:textColor="#FFFFFF"
-            android:textSize="48sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <TextView
+        android:id="@+id/nameProf"
+        android:layout_width="257dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/nameProf"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="102dp"
-            android:layout_height="108dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/emp" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="102dp"
+        android:layout_height="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/emp" />
 
-        <TextView
-            android:id="@+id/tvPri"
-            android:layout_width="149dp"
-            android:layout_height="43dp"
-            android:layout_marginBottom="40dp"
-            android:text="@string/tvPri"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/setloc"
-            app:layout_constraintEnd_toStartOf="@+id/pup"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/equp"
-            app:layout_constraintVertical_bias="0.434" />
+    <TextView
+        android:id="@+id/tvPri"
+        android:layout_width="149dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/tvPri"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/setloc"
+        app:layout_constraintEnd_toStartOf="@+id/pup"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/equp"
+        app:layout_constraintVertical_bias="0.434" />
 
-        <EditText
-            android:id="@+id/equp"
-            android:layout_width="188dp"
-            android:layout_height="99dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginRight="20dp"
-            android:ems="10"
-            android:gravity="start|top"
-            android:inputType="textMultiLine"
-            app:layout_constraintBaseline_toBaselineOf="@+id/eq"
-            app:layout_constraintEnd_toEndOf="parent" />
+    <EditText
+        android:id="@+id/equp"
+        android:layout_width="188dp"
+        android:layout_height="99dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBaseline_toBaselineOf="@+id/eq"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-        <EditText
-            android:id="@+id/pup"
-            android:layout_width="189dp"
-            android:layout_height="102dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginRight="20dp"
-            android:ems="10"
-            android:gravity="start|top"
-            android:inputType="textMultiLine"
-            app:layout_constraintBaseline_toBaselineOf="@+id/tvPri"
-            app:layout_constraintEnd_toEndOf="parent" />
+    <EditText
+        android:id="@+id/pup"
+        android:layout_width="189dp"
+        android:layout_height="102dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvPri"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-        <TextView
-            android:id="@+id/setloc"
-            android:layout_width="149dp"
-            android:layout_height="43dp"
-            android:text="@string/setloc"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@+id/dislo"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pup" />
+    <TextView
+        android:id="@+id/setloc"
+        android:layout_width="149dp"
+        android:layout_height="43dp"
+        android:text="@string/setloc"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/dislo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pup" />
 
-        <EditText
-            android:id="@+id/dislo"
-            android:layout_width="189dp"
-            android:layout_height="102dp"
-            android:ems="10"
-            android:gravity="start|top"
-            android:inputType="textMultiLine"
-            app:layout_constraintBaseline_toBaselineOf="@+id/setloc"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/setloc" />
+    <EditText
+        android:id="@+id/dislo"
+        android:layout_width="189dp"
+        android:layout_height="102dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBaseline_toBaselineOf="@+id/setloc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/setloc" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="234dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:onClick="Del"
+        android:text="Delete Account"
+        android:textColor="#FF0101"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#222629"
+        app:iconTint="#222629"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resetvals"
+        app:rippleColor="@android:color/transparent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
 
     <!-- side Bar -->
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -157,4 +157,26 @@ public class EmpProfUp extends AppCompatActivity implements NavigationView.OnNav
             }
         });
     }
+    public void Del(View view){
+        Intent intent = new Intent(this,EmpLogin.class);
+        String ph = getIntent().getStringExtra("iphone");
+        DatabaseReference delRef = FirebaseDatabase.getInstance().getReference().child("Employee");
+        delRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if(snapshot.hasChild(ph)){
+                    DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("Employee").child(ph);
+                    dbRef.removeValue();
+                    Toast.makeText(getApplicationContext(), "Account Deleted", Toast.LENGTH_SHORT).show();
+                    startActivity(intent);
+                }else
+                    Toast.makeText(getApplicationContext(), "No Account To Delete", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+    }
 }
