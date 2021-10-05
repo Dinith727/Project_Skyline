@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Taskit">
-
+        <activity
+            android:name=".JobHistory"
+            android:exported="true" />
         <activity
             android:name=".EmpResetPw"
             android:exported="true" />
@@ -43,7 +45,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

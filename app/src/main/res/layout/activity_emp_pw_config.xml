@@ -8,7 +8,7 @@
     android:padding="10dp"
     android:fillViewport="false"
     android:background="@drawable/background"
-    tools:context=".EmpRegEn">
+    tools:context=".EmpPwConfig">
 
     <Button
         android:id="@+id/resetvals"
