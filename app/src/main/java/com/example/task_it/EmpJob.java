@@ -63,6 +63,7 @@ public class EmpJob extends AppCompatActivity {
                 j1.setJobid(Jid);
                 j1.setJobname(jobDesc.getText().toString().trim());
                 j1.setStatus("Accepted");
+                j1.setPaymentStatus("");
                 j1.setFeedback("");
                 j1.setFee("");
                 j1.setStartTime("");

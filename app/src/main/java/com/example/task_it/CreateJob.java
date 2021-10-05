@@ -14,6 +14,15 @@ public class CreateJob {
     private String Duration;
     private String Rating;
     private String Date;
+    private String paymentStatus;
+
+    public String getPaymentStatus() {
+        return paymentStatus;
+    }
+
+    public void setPaymentStatus(String paymentStatus) {
+        this.paymentStatus = paymentStatus;
+    }
 
     public String getJobid() {
         return Jobid;
