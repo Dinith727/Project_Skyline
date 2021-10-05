@@ -81,4 +81,16 @@
     <string name="btn_SubmitCC">Submit</string>
     <string name="txt_Telno">Telephone No</string>
     <string name="button2">Customer Care</string>
+    <string name="txt_favName">Employee Name</string>
+    <string name="txt_favTelno">Tel No</string>
+    <string name="et_favName" />
+    <string name="et_favTelno" />
+
+    //side bar
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="btn_favDelete">Delete</string>
+    <string name="fav_name">Name</string>
+    <string name="fav_telNo">Tel No</string>
+
 </resources>

@@ -2013,6 +2013,7 @@ id btn_cusLocation
 id btn_deleteJobHis
 id btn_emp
 id btn_enter3
+id btn_favDelete
 id btn_forgot
 id btn_myProAccount
 id btn_newAcc
@@ -2024,10 +2025,8 @@ id btn_submitLogin2Next
 id btn_updateCusAcc
 id btn_updateCusAccLoc
 id btn_updateCusAccUp
-id btn_updateCusFavDel
 id btn_updateCusLocUp
 id button
-id button2
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -2148,6 +2147,9 @@ id expand_activities_button
 id expanded_menu
 id fade
 id fav
+id favList
+id fav_name
+id fav_telNo
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2184,7 +2186,6 @@ id image
 id imageView
 id imageView2
 id imageView3
-id imageView4
 id imageView_cus
 id imageView_emp
 id immediateStop
@@ -2206,6 +2207,7 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id logout
@@ -2265,9 +2267,9 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id nav_bus
-id nav_car
-id nav_plane
+id nav_cat
+id nav_cusC
+id nav_pri
 id nav_view
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
@@ -2449,6 +2451,8 @@ id txt_email3
 id txt_email5
 id txt_fName
 id txt_fName2
+id txt_favName
+id txt_favTelno
 id txt_headCusLocNew
 id txt_headCusLocUp
 id txt_headCusMyAcc3
@@ -2471,7 +2475,6 @@ id txt_nameCC4
 id txt_password
 id txt_password2
 id txt_password3
-id txt_telNo
 id txt_telNo2
 id txt_telNo3
 id txt_txt_CustomercareHeadName
@@ -2578,6 +2581,7 @@ layout activity_cus_new_account
 layout activity_cus_new_location
 layout activity_cus_show_job_history
 layout activity_customer_care
+layout activity_fav_list
 layout activity_home_page
 layout activity_login_page_cus
 layout activity_my_cus_account
@@ -2600,6 +2604,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout emp_header
+layout item_fav
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2718,6 +2723,7 @@ string btn_cusLocation
 string btn_deleteJobHis
 string btn_emp
 string btn_enter
+string btn_favDelete
 string btn_forgot
 string btn_jobHistory
 string btn_myAccount
@@ -2768,6 +2774,8 @@ string et_city
 string et_district
 string et_email
 string et_fName
+string et_favName
+string et_favTelno
 string et_lName
 string et_nameCC
 string et_password
@@ -2778,6 +2786,8 @@ string et_zipCode
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fav_name
+string fav_telNo
 string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
@@ -2842,6 +2852,8 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string navigation_drawer_close
+string navigation_drawer_open
 string paraForgot
 string password_toggle_content_description
 string path_password_eye
@@ -2860,6 +2872,8 @@ string txt_city
 string txt_district
 string txt_email
 string txt_fName
+string txt_favName
+string txt_favTelno
 string txt_headCusLocNew
 string txt_headCusLocUp
 string txt_headCusMyAcc

@@ -24,6 +24,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.Taskit" >
         <activity
+            android:name="com.example.task_it.FavAdapter"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.FavList"
+            android:exported="true" />
+        <activity
             android:name="com.example.task_it.CustomerCare"
             android:exported="true" />
         <activity

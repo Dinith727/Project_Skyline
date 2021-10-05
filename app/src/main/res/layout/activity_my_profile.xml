@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- side Bar -->
-<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:id="@+id/drawer_layout"
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     tools:context=".MyProfile"
@@ -36,22 +40,23 @@
     android:background="@drawable/background"
     tools:context=".MyProfile">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="585dp"
-        android:layout_height="1037dp"
-        android:layout_marginTop="4dp"
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="537dp"
+        android:layout_height="1002dp"
+        android:src="@drawable/myprofile"
+
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/myprofile" />
+        app:layout_constraintVertical_bias="0.076" />
 
     <Button
         android:id="@+id/btn_myProAccount"
         android:layout_width="164dp"
         android:layout_height="55dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="72dp"
         android:onClick="MyProfile"
         android:text="@string/btn_myProAccount"
         android:textSize="16sp"
@@ -59,7 +64,7 @@
         app:backgroundTint="#86C232"
         app:cornerRadius="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_headCusMyPro" />
 
@@ -84,7 +89,6 @@
         android:id="@+id/btn_cusLocation"
         android:layout_width="166dp"
         android:layout_height="55dp"
-        android:layout_marginBottom="256dp"
         android:onClick="MyLocation"
         android:text="@string/btn_cusLocation"
         android:textSize="16sp"
@@ -93,26 +97,10 @@
         app:cornerRadius="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.844"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_myProAccount"
-        app:layout_constraintVertical_bias="0.727" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_marginTop="72dp"
-        android:layout_height="55dp"
-        android:onClick="cUS"
-        android:text="@string/button2"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:backgroundTint="#61892f"
-        app:cornerRadius="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_cusLocation" />
+        app:layout_constraintVertical_bias="0.683" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
