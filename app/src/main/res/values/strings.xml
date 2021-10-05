@@ -92,5 +92,6 @@
     <string name="btn_favDelete">Delete</string>
     <string name="fav_name">Name</string>
     <string name="fav_telNo">Tel No</string>
+    <string name="btn_cusDeleteAcc">Delete Account</string>
 
 </resources>

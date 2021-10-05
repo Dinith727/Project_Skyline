@@ -10,9 +10,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 import android.widget.Toolbar;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class MyProfile extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -20,6 +26,8 @@ public class MyProfile extends AppCompatActivity implements NavigationView.OnNav
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
+
+    CusTempData cus = new CusTempData();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,8 +107,25 @@ public class MyProfile extends AppCompatActivity implements NavigationView.OnNav
         startActivity(i);
     }
 
-    public void cUS(View view){
-        Intent i = new Intent(this,CustomerCare.class);
-        startActivity(i);
+    public void DeleteAcc(View view){
+        Intent i = new Intent(this,LoginPage_Cus.class);
+        DatabaseReference delRef = FirebaseDatabase.getInstance().getReference().child("Customer");
+        delRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if(snapshot.hasChild(cus.getTelNo())){
+                    DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("Customer").child(cus.getTelNo());
+                    dbRef.removeValue();
+                    Toast.makeText(getApplicationContext(), "Account Deleted", Toast.LENGTH_SHORT).show();
+                    startActivity(i);
+                }else
+                    Toast.makeText(getApplicationContext(), "No SOURCE TO Delete", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
     }
 }

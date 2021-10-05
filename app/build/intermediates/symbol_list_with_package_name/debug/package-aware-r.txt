@@ -2009,11 +2009,11 @@ id bounceEnd
 id bounceStart
 id btn_SubmitCC
 id btn_cus
+id btn_cusDeleteAcc
 id btn_cusLocation
 id btn_deleteJobHis
 id btn_emp
 id btn_enter3
-id btn_favDelete
 id btn_forgot
 id btn_myProAccount
 id btn_newAcc
@@ -2163,6 +2163,7 @@ id fragment_container_view_tag
 id frost
 id ghost_view
 id ghost_view_holder
+id gifImageView
 id gone
 id graph
 id graph_wrap
@@ -2719,6 +2720,7 @@ string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string btn_SubmitCC
 string btn_cus
+string btn_cusDeleteAcc
 string btn_cusLocation
 string btn_deleteJobHis
 string btn_emp
