@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".empRegAccept">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="455dp"
+        android:layout_height="872dp"
+        android:src="@drawable/correct"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head5"
+        app:layout_constraintVertical_bias="0.214" />
+
+    <TextView
+        android:id="@+id/Phoneqwe"
+        android:layout_width="321dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/subhed3"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head5" />
+
+    <TextView
+        android:id="@+id/head5"
+        android:layout_width="203dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/head"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtreset5"
+        android:layout_width="322dp"
+        android:layout_height="245dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/txtdis3"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnlog1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Phoneqwe"
+        app:layout_constraintVertical_bias="0.378" />
+
+    <Button
+        android:id="@+id/btnlog1"
+        android:layout_width="232dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:onClick="accept"
+        android:text="@string/btnacancont1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#86C232"
+        app:cornerRadius="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnbackre5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtreset5" />
+
+    <Button
+        android:id="@+id/btnbackre5"
+        android:layout_width="157dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="88dp"
+        android:onClick="nothanks"
+        android:text="@string/btnnothanks1"
+        android:textSize="16sp"
+        app:backgroundTint="#61892f"
+        app:cornerRadius="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

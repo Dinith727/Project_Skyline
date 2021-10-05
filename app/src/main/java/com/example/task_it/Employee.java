@@ -2,115 +2,142 @@ package com.example.task_it;
 
 public class Employee {
 
-    private String name;
-    private String category;
-    private String email;
-    private String telNo;
-    private String fee;
-    private String location;
-    private String password;
-    private String nic;
-    private String rating;
-    private String req_eqp;
-    private String status;
-    private String jobs;
+    private String FirstName;
+    private String LastName;
+    private String Location;
+    private String Fee;
+    private String EmpID;
+    private String Password;
+    private String NIC;
+    private String Email;
+    private String TelNo;
+    private String Category;
+    private String Specialization;
+    private String Status;
+    private String RequiredEquipment;
+    private String Ratings;
+    public static String po;
 
-    public Employee() {
+    public  String getPo() {
+        return po;
     }
 
-    public String getName() {
-        return name;
+    public  void setPo(String po) {
+        Employee.po = po;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getTelNo() {
-        return telNo;
-    }
-
-    public void setTelNo(String telNo) {
-        this.telNo = telNo;
-    }
-
-    public String getFee() {
-        return fee;
-    }
-
-    public void setFee(String fee) {
-        this.fee = fee;
-    }
-
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
+    public String getFirstName() {
+        return FirstName;
     }
 
     public String getPassword() {
-        return password;
+        return Password;
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        Password = password;
     }
 
-    public String getNic() {
-        return nic;
+    public void setFirstName(String firstName) {
+        FirstName = firstName;
     }
 
-    public void setNic(String nic) {
-        this.nic = nic;
+    public String getLastName() {
+        return LastName;
     }
 
-    public String getRating() {
-        return rating;
+    public void setLastName(String lastName) {
+        LastName = lastName;
     }
 
-    public void setRating(String rating) {
-        this.rating = rating;
+    public String getLocation() {
+        return Location;
     }
 
-    public String getReq_eqp() {
-        return req_eqp;
+    public void setLocation(String location) {
+        Location = location;
     }
 
-    public void setReq_eqp(String req_eqp) {
-        this.req_eqp = req_eqp;
+    public String getFee() {
+        return Fee;
+    }
+
+    public void setFee(String fee) {
+        Fee = fee;
+    }
+
+    public String getEmpID() {
+        return EmpID;
+    }
+
+    public void setEmpID(String empID) {
+        EmpID = empID;
+    }
+
+    public String getNIC() {
+        return NIC;
+    }
+
+    public void setNIC(String NIC) {
+        this.NIC = NIC;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public void setEmail(String email) {
+        Email = email;
+    }
+
+    public String getTelNo() {
+        return TelNo;
+    }
+
+    public void setTelNo(String telNo) {
+        TelNo = telNo;
+    }
+
+    public String getCategory() {
+        return Category;
+    }
+
+    public void setCategory(String category) {
+        Category = category;
+    }
+
+    public String getSpecialization() {
+        return Specialization;
+    }
+
+    public void setSpecialization(String specialization) {
+        Specialization = specialization;
     }
 
     public String getStatus() {
-        return status;
+        return Status;
     }
 
     public void setStatus(String status) {
-        this.status = status;
+        Status = status;
     }
 
-    public String getJobs() {
-        return jobs;
+    public String getRequiredEquipment() {
+        return RequiredEquipment;
     }
 
-    public void setJobs(String jobs) {
-        this.jobs = jobs;
+    public void setRequiredEquipment(String requiredEquipment) {
+        RequiredEquipment = requiredEquipment;
+    }
+
+    public String getRatings() {
+        return Ratings;
+    }
+
+    public void setRatings(String ratings) {
+        Ratings = ratings;
+    }
+
+    public Employee() {
     }
 }

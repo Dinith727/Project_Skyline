@@ -24,4 +24,9 @@ public class CreateNewAccount extends AppCompatActivity {
         startActivity(in);
     }
 
+    public void EmpLog(View view){
+        Intent intent = new Intent(this,empRegAccept.class);
+        startActivity(intent);
+    }
+
 }

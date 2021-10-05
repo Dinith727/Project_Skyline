@@ -24,6 +24,33 @@
         android:testOnly="true"
         android:theme="@style/Theme.Taskit" >
         <activity
+            android:name="com.example.task_it.JobHistory"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpResetPw"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpProfUp"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpProfile"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpPwConfig"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpRegSuccess"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpRegEn"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.empRegAccept"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpLogin"
+            android:exported="true" />
+        <activity
             android:name="com.example.task_it.FavAdapter"
             android:exported="true" />
         <activity

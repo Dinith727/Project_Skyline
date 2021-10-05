@@ -54,9 +54,14 @@ public class LoginPage_Cus extends AppCompatActivity {
         startActivity(in);
     }
 
+    public void EmpLog(View view){
+        Intent in = new Intent(this,EmpLogin.class);
+        startActivity(in);
+    }
+
     public void Login(View view){
 
-        Intent inte = new Intent(this,Categories.class);
+        Intent inte = new Intent(this,MyProfile.class);
         DatabaseReference logRef = FirebaseDatabase.getInstance().getReference().child("Customer");
         DatabaseReference passRef = logRef.child(phone.getText().toString());
         logRef.addListenerForSingleValueEvent(new ValueEventListener() {

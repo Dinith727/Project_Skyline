@@ -4,16 +4,16 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/profile"
-            android:title="My Profile"
-            android:icon="@drawable/user"/>
+            android:icon="@drawable/user"
+            android:title="My Profile" />
         <item
             android:id="@+id/taskHis"
-            android:title="Task History"
-            android:icon="@drawable/job"/>
+            android:icon="@drawable/job"
+            android:title="Task History" />
         <item
             android:id="@+id/settings"
-            android:title="Settings"
-            android:icon="@drawable/settings"/>
+            android:icon="@drawable/settings"
+            android:title="Update Profile" />
         <item
             android:id="@+id/ongoing"
             android:title="Ongoing"
