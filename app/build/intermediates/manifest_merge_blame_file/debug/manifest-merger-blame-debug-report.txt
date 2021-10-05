@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.task_it"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:5:5-48:19
+17        android:allowBackup="true"
+17-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\Oshid\.gradle\caches\transforms-3\1c82df0e58fbd0ba966b0ae0d34659c1\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:7:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:8:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:9:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:10:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.Taskit" >
+25-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:11:9-44
+26        <activity
+26-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:12:9-14:39
+27            android:name="com.example.task_it.JobHistory"
+27-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:13:13-39
+28            android:exported="true" />
+28-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:14:13-36
+29        <activity
+29-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:15:9-17:39
+30            android:name="com.example.task_it.EmpResetPw"
+30-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:16:13-39
+31            android:exported="true" />
+31-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:17:13-36
+32        <activity
+32-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:18:9-20:39
+33            android:name="com.example.task_it.EmpProfUp"
+33-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:19:13-38
+34            android:exported="true" />
+34-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:20:13-36
+35        <activity
+35-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:21:9-23:39
+36            android:name="com.example.task_it.EmpProfile"
+36-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:22:13-39
+37            android:exported="true" />
+37-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:23:13-36
+38        <activity
+38-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:24:9-26:39
+39            android:name="com.example.task_it.EmpPwConfig"
+39-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:25:13-40
+40            android:exported="true" />
+40-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:26:13-36
+41        <activity
+41-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:27:9-29:39
+42            android:name="com.example.task_it.EmpRegSuccess"
+42-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:28:13-42
+43            android:exported="true" />
+43-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:29:13-36
+44        <activity
+44-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:30:9-32:39
+45            android:name="com.example.task_it.EmpRegResetPw"
+45-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:31:13-42
+46            android:exported="true" />
+46-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:32:13-36
+47        <activity
+47-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:33:9-35:39
+48            android:name="com.example.task_it.EmpRegEn"
+48-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:34:13-37
+49            android:exported="true" />
+49-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:35:13-36
+50        <activity
+50-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:36:9-38:39
+51            android:name="com.example.task_it.empRegAccept"
+51-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:37:13-41
+52            android:exported="true" />
+52-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:38:13-36
+53        <activity
+53-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:39:9-47:20
+54            android:name="com.example.task_it.EmpLogin"
+54-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:40:13-37
+55            android:exported="true" >
+55-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:41:13-36
+56            <intent-filter>
+56-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:42:13-46:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:43:17-69
+57-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:43:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:45:17-77
+59-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:45:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <service
+63-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:30:13-84
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:31:13-37
+67            <meta-data
+67-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
+68                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+68-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
+70        </service>
+71
+72        <provider
+72-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+73            android:name="com.google.firebase.provider.FirebaseInitProvider"
+73-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+74            android:authorities="com.example.task_it.firebaseinitprovider"
+74-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+75            android:directBootAware="true"
+75-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+76            android:exported="false"
+76-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+77            android:initOrder="100" />
+77-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+78
+79        <activity
+79-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Oshid\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+80            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+80-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Oshid\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+81            android:exported="false"
+81-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Oshid\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+82-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Oshid\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+83
+84        <meta-data
+84-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\736795ced1125049463359fb87a935ed\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+85            android:name="com.google.android.gms.version"
+85-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\736795ced1125049463359fb87a935ed\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+86            android:value="@integer/google_play_services_version" />
+86-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\736795ced1125049463359fb87a935ed\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+87    </application>
+88
+89</manifest>
