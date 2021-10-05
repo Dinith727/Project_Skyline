@@ -53,6 +53,7 @@ public class EmpProfUp extends AppCompatActivity implements NavigationView.OnNav
 
         String ph = getIntent().getStringExtra("iphone");
 
+
         DatabaseReference readRef = FirebaseDatabase.getInstance().getReference().child("Employee").child(ph);
         readRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override

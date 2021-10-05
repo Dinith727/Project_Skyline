@@ -70,6 +70,7 @@ public class EmpLogin extends AppCompatActivity {
                             if(pp.isEmpty()){
                                 Toast.makeText(getApplicationContext(), "Enter Credentials", Toast.LENGTH_SHORT).show();
                             }else if(pw.equals(password.getText().toString())){
+                                emp.setPo(phone.getText().toString());
                                 q.putExtra("phone",phone.getText().toString());
                                 startActivity(q);
                             }else

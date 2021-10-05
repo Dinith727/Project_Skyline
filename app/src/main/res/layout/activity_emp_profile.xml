@@ -31,24 +31,24 @@
         android:padding="10dp"
         tools:context=".EmpProfile">
 
-        <Button
-            android:id="@+id/resetvals"
-            android:layout_width="175dp"
-            android:layout_height="55dp"
-            android:layout_marginBottom="4dp"
-            android:onClick="notavailable"
-            android:text="@string/noav"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            app:backgroundTint="#61892f"
-            app:cornerRadius="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.105"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="TextContrastCheck" />
+    <Button
+        android:id="@+id/resetvals"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="notavailable"
+        android:text="@string/noav"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#61892f"
+        app:cornerRadius="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
 
-        <Button
+    <Button
             android:id="@+id/savechan"
             android:layout_width="132dp"
             android:layout_height="55dp"
@@ -122,18 +122,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cat" />
 
-        <TextView
-            android:id="@+id/equip"
-            android:layout_width="211dp"
-            android:layout_height="98dp"
-            android:fontFamily="sans-serif"
-            android:text="@string/equip"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            app:layout_constraintBaseline_toBaselineOf="@+id/eq"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.92"
-            app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/equip"
+        android:layout_width="155dp"
+        android:layout_height="97dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/equip"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/eq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/Phoneqwe"
@@ -151,22 +151,22 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nameProf" />
 
-        <TextView
-            android:id="@+id/availablity"
-            android:layout_width="278dp"
-            android:layout_height="42dp"
-            android:layout_marginBottom="8dp"
-            android:fontFamily="sans-serif"
-            android:gravity="center"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:textStyle="italic"
-            app:layout_constraintBottom_toTopOf="@+id/resetvals"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/availablity"
+        android:layout_width="278dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/resetvals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <ImageView
+    <ImageView
             android:id="@+id/imageView"
             android:layout_width="102dp"
             android:layout_height="108dp"
@@ -176,33 +176,32 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/emp" />
 
-        <TextView
-            android:id="@+id/tvPri"
-            android:layout_width="149dp"
-            android:layout_height="43dp"
-            android:layout_marginTop="60dp"
-            android:text="@string/tvPri"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@+id/dispri"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/eq" />
+    <TextView
+        android:id="@+id/tvPri"
+        android:layout_width="149dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/tvPri"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eq" />
 
-        <TextView
-            android:id="@+id/dispri"
-            android:layout_width="211dp"
-            android:layout_height="98dp"
-            android:text="@string/dispri"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            app:layout_constraintBaseline_toBaselineOf="@+id/tvPri"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/tvPri" />
+    <TextView
+        android:id="@+id/dispri"
+        android:layout_width="155dp"
+        android:layout_height="73dp"
+        android:text="@string/dispri"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvPri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvPri" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
     <!--     side Bar -->
 </androidx.drawerlayout.widget.DrawerLayout>

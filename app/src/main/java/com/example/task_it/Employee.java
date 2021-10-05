@@ -16,6 +16,15 @@ public class Employee {
 	private String Status;
 	private String RequiredEquipment;
 	private String Ratings;
+	public static String po;
+
+    public  String getPo() {
+        return po;
+    }
+
+    public  void setPo(String po) {
+        Employee.po = po;
+    }
 
     public String getFirstName() {
         return FirstName;
