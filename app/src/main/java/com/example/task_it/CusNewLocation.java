@@ -174,7 +174,7 @@ public class CusNewLocation extends AppCompatActivity {
 
     public void addCus(View view){
 
-        Intent in = new Intent(this,LoginPage_Cus.class);
+        Intent in = new Intent(this,LoginPage_Cus.class); //redirecting to other page
 
         String fn = getIntent().getStringExtra("fName");
         String ln = getIntent().getStringExtra("lName");

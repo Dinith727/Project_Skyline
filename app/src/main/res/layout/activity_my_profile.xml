@@ -36,11 +36,22 @@
     android:background="@drawable/background"
     tools:context=".MyProfile">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="585dp"
+        android:layout_height="1037dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/myprofile" />
+
     <Button
         android:id="@+id/btn_myProAccount"
         android:layout_width="164dp"
         android:layout_height="55dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="96dp"
         android:onClick="MyProfile"
         android:text="@string/btn_myProAccount"
         android:textSize="16sp"
@@ -67,7 +78,7 @@
         app:layout_constraintHorizontal_bias="0.586"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.131" />
+        app:layout_constraintVertical_bias="0.122" />
 
     <Button
         android:id="@+id/btn_cusLocation"
@@ -82,10 +93,10 @@
         app:cornerRadius="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_myProAccount"
-        app:layout_constraintVertical_bias="0.88" />
+        app:layout_constraintVertical_bias="0.727" />
 
     <Button
         android:id="@+id/button2"

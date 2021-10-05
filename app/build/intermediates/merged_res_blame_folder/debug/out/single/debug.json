@@ -32,12 +32,32 @@
         "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\background.xml"
     },
     {
+        "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_mobileloginrafiki.png.flat",
+        "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\mobileloginrafiki.png"
+    },
+    {
         "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_my_profile.xml.flat",
         "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_my_profile.xml"
     },
     {
+        "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_myprofile.gif.flat",
+        "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\myprofile.gif"
+    },
+    {
+        "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_userpro.gif.flat",
+        "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\userpro.gif"
+    },
+    {
+        "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_mobilelogin.gif.flat",
+        "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\mobilelogin.gif"
+    },
+    {
         "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_scanuser.gif.flat",
+        "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\scanuser.gif"
     },
     {
         "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -62,6 +82,10 @@
     {
         "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_emp.png.flat",
         "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\emp.png"
+    },
+    {
+        "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_forgotpass.gif.flat",
+        "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\forgotpass.gif"
     },
     {
         "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -92,6 +116,10 @@
         "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_signup.jpg.flat",
+        "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\signup.jpg"
+    },
+    {
         "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_customercare.png.flat",
         "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\customercare.png"
     },
@@ -100,12 +128,20 @@
         "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_addlocation.gif.flat",
+        "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\addlocation.gif"
+    },
+    {
         "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_locationwithoutback.png.flat",
         "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\locationwithoutback.png"
+    },
+    {
+        "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_forgotpasswordrafiki.png.flat",
+        "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\forgotpasswordrafiki.png"
     },
     {
         "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cus_new_location.xml.flat",
@@ -140,6 +176,10 @@
         "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_loginas.gif.flat",
+        "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\loginas.gif"
+    },
+    {
         "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_rounded_corner_view.xml.flat",
         "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\rounded_corner_view.xml"
     },
@@ -162,6 +202,14 @@
     {
         "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_customer_care.png.flat",
         "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\customer_care.png"
+    },
+    {
+        "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_logincus.gif.flat",
+        "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\logincus.gif"
+    },
+    {
+        "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_password.gif.flat",
+        "source": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\password.gif"
     },
     {
         "merged": "C:\\Users\\Oshid\\Desktop\\MAD Project\\Oshidhie Branch Pull\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",

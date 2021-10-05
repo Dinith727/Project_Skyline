@@ -1786,6 +1786,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable addlocation
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
@@ -1828,6 +1829,8 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable emp
 drawable favourites
+drawable forgotpass
+drawable forgotpasswordrafiki
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable house
@@ -1842,6 +1845,8 @@ drawable ic_mtrl_chip_close_circle
 drawable job
 drawable location
 drawable locationwithoutback
+drawable loginas
+drawable logincus
 drawable logout
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -1853,6 +1858,8 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable mobilelogin
+drawable mobileloginrafiki
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1863,6 +1870,7 @@ drawable mtrl_navigation_bar_item_background
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable myprofile
 drawable navigation_empty_icon
 drawable notification
 drawable notification_action_background
@@ -1878,14 +1886,18 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable ongoing
+drawable password
 drawable rounded_corner_black_view
 drawable rounded_corner_view
+drawable scanuser
 drawable settings
+drawable signup
 drawable taskit
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable user
+drawable userpro
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2172,6 +2184,7 @@ id image
 id imageView
 id imageView2
 id imageView3
+id imageView4
 id imageView_cus
 id imageView_emp
 id immediateStop

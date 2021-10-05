@@ -7,6 +7,17 @@
     android:background="@drawable/background"
     tools:context=".CusNewLocation">
 
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="508dp"
+        android:layout_height="1180dp"
+        android:src="@drawable/addlocation"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222" />
 
     <Button
         android:id="@+id/btn_submitAdd"
@@ -45,11 +56,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
         android:fontFamily="sans-serif"
         android:text="@string/txt_zipCode"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/et_zipCode3"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -76,11 +87,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
         android:fontFamily="sans-serif"
         android:text="@string/txt_district"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/et_district3"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -107,11 +118,11 @@
         android:layout_width="84dp"
         android:layout_height="24dp"
         android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
         android:fontFamily="sans-serif"
         android:text="@string/txt_city"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/et_city3"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -138,11 +149,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
         android:fontFamily="sans-serif"
         android:text="@string/txt_Street"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/et_street3"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -188,11 +199,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
         android:fontFamily="sans-serif"
         android:text="@string/txt_HouseNo"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/et_HouseNo3"
         app:layout_constraintStart_toStartOf="parent" />
 

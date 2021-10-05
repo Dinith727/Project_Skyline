@@ -51,7 +51,7 @@
     <string name="btn_submitAdd">Submit</string>
     <string name="btn_submitLogAsEmp">Login as an Employee</string>
     <string name="txt_headForgotPass">Forgot Password</string>
-    <string name="paraForgot">Please Enter your Email Address to Validate Your Account</string>
+    <string name="paraForgot">Please Enter your Email Address and Tel No to Validate Your Account</string>
     <string name="btn_submitForgotPass">Submit</string>
     <string name="cusHeaderName">Task-it</string>
     <string name="cusHeaderSubName">All tasks. One App</string>

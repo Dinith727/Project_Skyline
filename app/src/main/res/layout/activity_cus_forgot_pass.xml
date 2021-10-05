@@ -8,6 +8,17 @@
     tools:context=".CusForgotPass">
 
 
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="481dp"
+        android:layout_height="1144dp"
+        android:src="@drawable/forgotpass"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
     <EditText
         android:id="@+id/et_email4"
         android:layout_width="188dp"
@@ -35,6 +46,7 @@
         android:text="@string/txt_Telno"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/et_email4"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -98,6 +110,7 @@
         android:text="@string/txt_email"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/et_email2"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -127,7 +140,7 @@
         android:text="@string/txt_headForgotPass"
         android:textColor="#FFFFFF"
         android:textSize="45sp"
-        android:textStyle="italic"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -136,15 +149,16 @@
 
     <TextView
         android:id="@+id/paraForgot"
-        android:layout_width="343dp"
-        android:layout_height="86dp"
+        android:layout_width="321dp"
+        android:layout_height="90dp"
         android:layout_marginTop="48dp"
         android:gravity="center"
         android:text="@string/paraForgot"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_headForgotPass" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
