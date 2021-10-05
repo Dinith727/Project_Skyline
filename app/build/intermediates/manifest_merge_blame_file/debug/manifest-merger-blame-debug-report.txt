@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="17"
-8-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml
+8-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml
+9-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml
 10
 11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -20,139 +20,239 @@
 14-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:22-64
 15
 16    <application
-16-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:5:5-48:19
+16-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:5:5-98:19
 17        android:allowBackup="true"
-17-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:6:9-35
+17-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:6:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 18-->[androidx.core:core:1.5.0] C:\Users\Oshid\.gradle\caches\transforms-3\1c82df0e58fbd0ba966b0ae0d34659c1\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:7:9-43
+20-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:7:9-43
 21        android:label="@string/app_name"
-21-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:8:9-41
+21-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:8:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:9:9-54
+22-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:9:9-54
 23        android:supportsRtl="true"
-23-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:10:9-35
+23-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:10:9-35
 24        android:testOnly="true"
 25        android:theme="@style/Theme.Taskit" >
-25-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:11:9-44
+25-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:11:9-44
 26        <activity
-26-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:12:9-14:39
+26-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:12:9-14:39
 27            android:name="com.example.task_it.JobHistory"
-27-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:13:13-39
+27-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:13:13-39
 28            android:exported="true" />
-28-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:14:13-36
+28-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:14:13-36
 29        <activity
-29-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:15:9-17:39
+29-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:15:9-17:39
 30            android:name="com.example.task_it.EmpResetPw"
-30-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:16:13-39
+30-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:16:13-39
 31            android:exported="true" />
-31-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:17:13-36
+31-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:17:13-36
 32        <activity
-32-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:18:9-20:39
+32-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:18:9-20:39
 33            android:name="com.example.task_it.EmpProfUp"
-33-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:19:13-38
+33-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:19:13-38
 34            android:exported="true" />
-34-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:20:13-36
+34-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:20:13-36
 35        <activity
-35-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:21:9-23:39
+35-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:21:9-23:39
 36            android:name="com.example.task_it.EmpProfile"
-36-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:22:13-39
+36-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:22:13-39
 37            android:exported="true" />
-37-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:23:13-36
+37-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:23:13-36
 38        <activity
-38-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:24:9-26:39
+38-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:24:9-26:39
 39            android:name="com.example.task_it.EmpPwConfig"
-39-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:25:13-40
+39-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:25:13-40
 40            android:exported="true" />
-40-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:26:13-36
+40-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:26:13-36
 41        <activity
-41-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:27:9-29:39
+41-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:27:9-29:39
 42            android:name="com.example.task_it.EmpRegSuccess"
-42-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:28:13-42
+42-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:28:13-42
 43            android:exported="true" />
-43-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:29:13-36
+43-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:29:13-36
 44        <activity
-44-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:30:9-32:39
-45            android:name="com.example.task_it.EmpRegResetPw"
-45-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:31:13-42
+44-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:30:9-32:39
+45            android:name="com.example.task_it.EmpRegEn"
+45-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:31:13-37
 46            android:exported="true" />
-46-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:32:13-36
+46-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:32:13-36
 47        <activity
-47-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:33:9-35:39
-48            android:name="com.example.task_it.EmpRegEn"
-48-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:34:13-37
+47-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:33:9-35:39
+48            android:name="com.example.task_it.empRegAccept"
+48-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:34:13-41
 49            android:exported="true" />
-49-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:35:13-36
+49-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:35:13-36
 50        <activity
-50-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:36:9-38:39
-51            android:name="com.example.task_it.empRegAccept"
-51-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:37:13-41
+50-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:36:9-38:39
+51            android:name="com.example.task_it.EmpLogin"
+51-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:37:13-37
 52            android:exported="true" />
-52-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:38:13-36
+52-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:38:13-36
 53        <activity
-53-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:39:9-47:20
-54            android:name="com.example.task_it.EmpLogin"
-54-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:40:13-37
-55            android:exported="true" >
-55-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:41:13-36
-56            <intent-filter>
-56-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:42:13-46:29
-57                <action android:name="android.intent.action.MAIN" />
-57-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:43:17-69
-57-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:43:25-66
-58
-59                <category android:name="android.intent.category.LAUNCHER" />
-59-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:45:17-77
-59-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull\Project_Skyline\app\src\main\AndroidManifest.xml:45:27-74
-60            </intent-filter>
-61        </activity>
-62
-63        <service
-63-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19
-64            android:name="com.google.firebase.components.ComponentDiscoveryService"
-64-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:30:13-84
-65            android:directBootAware="true"
-65-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-66            android:exported="false" >
-66-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:31:13-37
-67            <meta-data
-67-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
-68                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-68-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
-69                android:value="com.google.firebase.components.ComponentRegistrar" />
-69-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
-70        </service>
-71
-72        <provider
-72-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-73            android:name="com.google.firebase.provider.FirebaseInitProvider"
-73-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-74            android:authorities="com.example.task_it.firebaseinitprovider"
-74-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-75            android:directBootAware="true"
-75-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-76            android:exported="false"
-76-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-77            android:initOrder="100" />
-77-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-78
-79        <activity
-79-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Oshid\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-80            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-80-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Oshid\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-81            android:exported="false"
-81-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Oshid\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-82-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Oshid\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-83
-84        <meta-data
-84-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\736795ced1125049463359fb87a935ed\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-85            android:name="com.google.android.gms.version"
-85-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\736795ced1125049463359fb87a935ed\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-86            android:value="@integer/google_play_services_version" />
-86-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\736795ced1125049463359fb87a935ed\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-87    </application>
-88
-89</manifest>
+53-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:40:9-42:39
+54            android:name="com.example.task_it.FavAdapter"
+54-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:41:13-39
+55            android:exported="true" />
+55-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:42:13-36
+56        <activity
+56-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:43:9-45:39
+57            android:name="com.example.task_it.FavList"
+57-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:44:13-36
+58            android:exported="true" />
+58-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:45:13-36
+59        <activity
+59-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:46:9-48:39
+60            android:name="com.example.task_it.CustomerCare"
+60-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:47:13-41
+61            android:exported="true" />
+61-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:48:13-36
+62        <activity
+62-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:49:9-57:20
+63            android:name="com.example.task_it.HomePage"
+63-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:50:13-37
+64            android:exported="true" >
+64-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:51:13-36
+65            <intent-filter>
+65-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:52:13-56:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:53:17-69
+66-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:53:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:55:17-77
+68-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:55:27-74
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:58:9-60:39
+72            android:name="com.example.task_it.CusForgotPass"
+72-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:59:13-42
+73            android:exported="true" />
+73-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:60:13-36
+74        <activity
+74-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:61:9-63:39
+75            android:name="com.example.task_it.CusNewLocation"
+75-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:62:13-43
+76            android:exported="true" />
+76-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:63:13-36
+77        <activity
+77-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:64:9-66:39
+78            android:name="com.example.task_it.CusLocUpdate"
+78-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:65:13-41
+79            android:exported="true" />
+79-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:66:13-36
+80        <activity
+80-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:67:9-69:39
+81            android:name="com.example.task_it.CusAccUpdate"
+81-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:68:13-41
+82            android:exported="true" />
+82-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:69:13-36
+83        <activity
+83-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:70:9-72:39
+84            android:name="com.example.task_it.CusLocation"
+84-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:71:13-40
+85            android:exported="true" />
+85-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:72:13-36
+86        <activity
+86-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:73:9-75:39
+87            android:name="com.example.task_it.MyCusAccount"
+87-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:74:13-41
+88            android:exported="true" />
+88-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:75:13-36
+89        <activity
+89-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:76:9-78:39
+90            android:name="com.example.task_it.MyProfile"
+90-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:77:13-38
+91            android:exported="true" />
+91-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:78:13-36
+92        <activity
+92-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:79:9-81:39
+93            android:name="com.example.task_it.CreateNewAccount"
+93-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:80:13-45
+94            android:exported="true" />
+94-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:81:13-36
+95        <activity
+95-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:82:9-84:39
+96            android:name="com.example.task_it.CusNewAccount"
+96-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:83:13-42
+97            android:exported="true" />
+97-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:84:13-36
+98        <activity
+98-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:85:9-87:39
+99            android:name="com.example.task_it.LoginPage_Cus"
+99-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:86:13-42
+100            android:exported="true" />
+100-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:87:13-36
+101        <activity android:name="com.example.task_it.Carpentry" />
+101-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:89:9-56
+101-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:89:19-44
+102        <activity android:name="com.example.task_it.Electrician" />
+102-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:90:9-58
+102-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:90:19-46
+103        <activity android:name="com.example.task_it.AssignTask" />
+103-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:91:9-57
+103-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:91:19-45
+104        <activity android:name="com.example.task_it.EmpJob" />
+104-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:92:9-53
+104-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:92:19-41
+105        <activity android:name="com.example.task_it.JobAccepted" />
+105-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:93:9-58
+105-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:93:19-46
+106        <activity android:name="com.example.task_it.carpProfile" />
+106-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:94:9-58
+106-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:94:19-46
+107        <activity android:name="com.example.task_it.Categories" >
+107-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:95:9-96:20
+107-->C:\Users\Oshid\Desktop\MAD_Project\Dinith Branch Pull & Main Merge (P O D)\Project_Skyline\app\src\main\AndroidManifest.xml:95:19-45
+108        </activity>
+109
+110        <service
+110-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19
+111            android:name="com.google.firebase.components.ComponentDiscoveryService"
+111-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:30:13-84
+112            android:directBootAware="true"
+112-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+113            android:exported="false" >
+113-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:31:13-37
+114            <meta-data
+114-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
+115                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+115-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-database:20.0.2] C:\Users\Oshid\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
+117        </service>
+118
+119        <provider
+119-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+120            android:name="com.google.firebase.provider.FirebaseInitProvider"
+120-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+121            android:authorities="com.example.task_it.firebaseinitprovider"
+121-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+122            android:directBootAware="true"
+122-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+123            android:exported="false"
+123-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+124            android:initOrder="100" />
+124-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+125
+126        <activity
+126-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Oshid\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+127            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+127-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Oshid\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+128            android:exported="false"
+128-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Oshid\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Oshid\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+130
+131        <meta-data
+131-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\736795ced1125049463359fb87a935ed\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+132            android:name="com.google.android.gms.version"
+132-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\736795ced1125049463359fb87a935ed\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+133            android:value="@integer/google_play_services_version" />
+133-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Oshid\.gradle\caches\transforms-3\736795ced1125049463359fb87a935ed\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+134    </application>
+135
+136</manifest>

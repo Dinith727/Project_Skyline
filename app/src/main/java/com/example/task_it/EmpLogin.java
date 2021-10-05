@@ -1,14 +1,14 @@
 package com.example.task_it;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -43,14 +43,22 @@ public class EmpLogin extends AppCompatActivity {
 
 
     }
-    public void CreateAccount(View view){
-        Intent intent = new Intent(this,empRegAccept.class);
-        startActivity(intent);
-    }
+
     public void ForgotPw(View view){
         Intent intent = new Intent(this,EmpRegResetPw.class);
         startActivity(intent);
     }
+
+    public void CusLog(View view){
+        Intent intent = new Intent(this,LoginPage_Cus.class);
+        startActivity(intent);
+    }
+
+    public void CreateAccount(View view){
+        Intent intent = new Intent(this,CreateNewAccount.class);
+        startActivity(intent);
+    }
+
     public void Login(View view){
 
         String pp = password.getText().toString() ;

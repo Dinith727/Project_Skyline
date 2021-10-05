@@ -7,6 +7,17 @@
     android:background="@drawable/background"
     tools:context=".EmpRegResetPw">
 
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="464dp"
+        android:layout_height="984dp"
+        android:layout_marginTop="24dp"
+
+        android:src="@drawable/resetemp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/Phoneqwe"
         android:layout_width="428dp"

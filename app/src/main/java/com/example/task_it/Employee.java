@@ -3,20 +3,20 @@ package com.example.task_it;
 public class Employee {
 
     private String FirstName;
-	private String LastName;
-	private String Location;
-	private String Fee;
-	private String EmpID;
+    private String LastName;
+    private String Location;
+    private String Fee;
+    private String EmpID;
     private String Password;
-	private String NIC;
-	private String Email;
-	private String TelNo;
-	private String Category;
-	private String Specialization;
-	private String Status;
-	private String RequiredEquipment;
-	private String Ratings;
-	public static String po;
+    private String NIC;
+    private String Email;
+    private String TelNo;
+    private String Category;
+    private String Specialization;
+    private String Status;
+    private String RequiredEquipment;
+    private String Ratings;
+    public static String po;
 
     public  String getPo() {
         return po;

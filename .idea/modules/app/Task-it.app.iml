@@ -4,7 +4,15 @@
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
         <option name="GRADLE_PROJECT_PATH" value=":app" />
+<<<<<<< HEAD
         <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" />
+=======
+<<<<<<< HEAD
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="7.0.2" />
+=======
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" />
+>>>>>>> 40a727ef793c9e445d6a5d25a13b11ccd2dbe413
+>>>>>>> bfe5ddec891a4f5751a48068405198ba96e16082
         <option name="LAST_KNOWN_AGP_VERSION" value="7.0.2" />
       </configuration>
     </facet>
@@ -106,5 +114,13 @@
     <orderEntry type="library" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout:2.1.0@aar" level="project" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <orderEntry type="library" name="Gradle: pl.droidsonroids.gif:android-gif-drawable:1.2.19@aar" level="project" />
+    <orderEntry type="library" name="Gradle: pl.droidsonroids:relinker:1.3.1@aar" level="project" />
+=======
+>>>>>>> 40a727ef793c9e445d6a5d25a13b11ccd2dbe413
+>>>>>>> bfe5ddec891a4f5751a48068405198ba96e16082
   </component>
 </module>

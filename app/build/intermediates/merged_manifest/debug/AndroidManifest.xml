@@ -42,9 +42,6 @@
             android:name="com.example.task_it.EmpRegSuccess"
             android:exported="true" />
         <activity
-            android:name="com.example.task_it.EmpRegResetPw"
-            android:exported="true" />
-        <activity
             android:name="com.example.task_it.EmpRegEn"
             android:exported="true" />
         <activity
@@ -52,12 +49,62 @@
             android:exported="true" />
         <activity
             android:name="com.example.task_it.EmpLogin"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.FavAdapter"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.FavList"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CustomerCare"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.HomePage"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.task_it.CusForgotPass"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CusNewLocation"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CusLocUpdate"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CusAccUpdate"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CusLocation"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.MyCusAccount"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.MyProfile"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CreateNewAccount"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CusNewAccount"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.LoginPage_Cus"
+            android:exported="true" />
+        <activity android:name="com.example.task_it.Carpentry" />
+        <activity android:name="com.example.task_it.Electrician" />
+        <activity android:name="com.example.task_it.AssignTask" />
+        <activity android:name="com.example.task_it.EmpJob" />
+        <activity android:name="com.example.task_it.JobAccepted" />
+        <activity android:name="com.example.task_it.carpProfile" />
+        <activity android:name="com.example.task_it.Categories" >
         </activity>
 
         <service

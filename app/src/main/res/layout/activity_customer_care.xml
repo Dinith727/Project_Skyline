@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- side Bar -->
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".CusLocUpdate"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <!-- side Bar -->
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/cus_header"
+        app:menu="@menu/cus_main_menu"
+        android:layout_gravity="start"/>
+
+    <!-- side Bar -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CustomerCare">
+
+    <Button
+        android:id="@+id/backToCusLog"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="44dp"
+        android:onClick="BackToPro"
+        android:text="@string/BackToCusLog"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#61892f"
+        app:cornerRadius="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_SubmitCC"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/txt_nameCC4"
+        android:layout_width="90dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="48dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/txt_nameCC4"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_issue"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="97dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/customer_care" />
+
+
+    <Button
+        android:id="@+id/btn_SubmitCC"
+        android:layout_width="122dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="Submit"
+        android:text="@string/btn_SubmitCC"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#86C232"
+        app:cornerRadius="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_issue"
+        app:layout_constraintVertical_bias="0.525" />
+
+    <TextView
+        android:id="@+id/txt_CustomercareHead2"
+        android:layout_width="199dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="164dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/txt_CustomercareHead"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_txt_CustomercareHeadName"
+        android:layout_width="199dp"
+        android:layout_height="64dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center|left"
+        android:text="@string/txt_CustomercareHeadName"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txt_CustomercareHead2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/et_issue"
+        android:layout_width="201dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rounded_corner_view"
+        android:ems="10"
+        android:gravity="center|top"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_txt_CustomercareHeadName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- side Bar -->
+</androidx.drawerlayout.widget.DrawerLayout>

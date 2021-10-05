@@ -1,11 +1,10 @@
 package com.example.task_it;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class empRegAccept extends AppCompatActivity {
 
@@ -21,6 +20,11 @@ public class empRegAccept extends AppCompatActivity {
     }
     public void nothanks(View view){
         Intent intent = new Intent(this,EmpLogin.class);
+        startActivity(intent);
+    }
+
+    public void CreateAccount(View view){
+        Intent intent = new Intent(this,CreateNewAccount.class);
         startActivity(intent);
     }
 }
