@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="17"
-        android:targetSdkVersion="30" />
+        android:minSdkVersion="16"
+        android:targetSdkVersion="31" />
 
     <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -23,17 +23,36 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Taskit" >
-        <activity android:name="com.example.task_it.Carpentry" />
-        <activity android:name="com.example.task_it.AssignTask" />
-        <activity android:name="com.example.task_it.EmpJob" />
-        <activity android:name="com.example.task_it.JobAccepted" />
-        <activity android:name="com.example.task_it.carpProfile" >
+        <activity
+            android:name="com.example.task_it.Splash"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.task_it.CusPayement"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmployeeRating"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpPayment"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CusProgressBar"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.ProgressBar2"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpCash"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpCard"
+            android:exported="true" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

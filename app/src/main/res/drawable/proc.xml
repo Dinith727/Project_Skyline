@@ -8,9 +8,9 @@
     <shape android:useLevel="false"
         android:shape="ring">
 
-            <gradient android:endColor="#ff0000"
-                android:centerColor="#00bfff"
-                android:startColor="#ff0000"
+            <gradient android:endColor="#FFFFFF"
+                android:centerColor="#86C232"
+                android:startColor="#FFFFFF"
                 android:type="sweep"
                 android:useLevel="false"/>
     </shape>

@@ -36,7 +36,6 @@ public class Splash extends AppCompatActivity {
             public void run() {
 
                 startActivity(new Intent(Splash.this,ProgressBar2.class));
-
             }
         },6000);
 

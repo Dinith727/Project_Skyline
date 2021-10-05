@@ -83,8 +83,8 @@ public class EmployeeRating extends AppCompatActivity {
                     //mRatingBar.setRating(0);
                     DatabaseReference dbref = FirebaseDatabase.getInstance().getReference().child("Job");
 
-                    dbref.child("job1").child("rating").setValue(jb.getRating());
-                    dbref.child("job1").child("feedback").setValue(f);
+                    dbref.child("Table light").child("rating").setValue(jb.getRating());
+                    dbref.child("Table light").child("feedback").setValue(f);
                     Toast.makeText(EmployeeRating.this, "Thank you for sharing your feedback", Toast.LENGTH_SHORT).show();
 
                 }

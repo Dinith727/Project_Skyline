@@ -2,12 +2,49 @@ package com.example.task_it;
 
 public class job {
     private String  Jobid;
+    private String startTime;
+    private String endtTime;
     private String  Jobname;
     private String Status;
     private String Feedback;
-    private int Duration;
+    private String Duration;
     private int Rating;
-    private int Date;
+    private String Date;
+    private String Fee;
+
+    public String getEndtTime() {
+        return endtTime;
+    }
+
+    public void setEndtTime(String endtTime) {
+        this.endtTime = endtTime;
+    }
+
+    public String getStartTime() {
+        return startTime;
+    }
+
+    public void setStartTime(String startTime) {
+        this.startTime = startTime;
+    }
+
+    public int getRating() {
+        return Rating;
+    }
+
+
+
+    public void setRating(int rating) {
+        Rating = rating;
+    }
+
+    public String getFee() {
+        return Fee;
+    }
+
+    public void setFee(String fee) {
+        Fee = fee;
+    }
 
     public String getJobid() {
         return Jobid;
@@ -15,48 +52,45 @@ public class job {
 
     public void setJobid(String jobid) {
         Jobid = jobid;
-
-    }
-
-    public void setJobname(String jobname) {
-        Jobname = jobname;
     }
 
     public String getJobname() {
         return Jobname;
     }
 
-    public void setStatus(String status) {
-        Status = status;
+    public void setJobname(String jobname) {
+        Jobname = jobname;
     }
 
     public String getStatus() {
         return Status;
     }
 
-    public void setDuration(int duration) {
-        Duration = duration;
+    public void setStatus(String status) {
+        Status = status;
     }
 
-    public int getDuration() {
+    public String getDuration() {
         return Duration;
     }
 
-    public void setRating(int rating) {
-        Rating = rating;
+    public void setDuration(String duration) {
+        Duration = duration;
     }
 
-    public int getRating() {
-        return Rating;
+
+
+
+
+    public String getDate() {
+        return Date;
     }
 
-    public void setDate(int date) {
+    public void setDate(String date) {
         Date = date;
     }
 
-    public int getDate() {
-        return Date;
-    }
+
 
     public job(){
 
@@ -68,6 +102,18 @@ public class job {
 
     public String getFeedback() {
         return Feedback;
+    }
+
+    public String getStartTime(String startTime) {
+        return startTime;
+    }
+
+    public String getEndtTime(String endTime) {
+        return endTime;
+    }
+
+    public String getStatus(String status) {
+        return status;
     }
 }
 
