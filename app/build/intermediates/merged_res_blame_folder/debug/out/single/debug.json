@@ -1,0 +1,358 @@
+[
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_jobaccepted.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\jobaccepted.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_mobilelogin.gif.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\mobilelogin.gif"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_my_cus_account.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_my_cus_account.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_emp_header.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\emp_header.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_job.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\job.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_background.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\background.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_empjob.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\empjob.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cus_location.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_cus_location.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_location.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\location.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cus_loc_update.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_cus_loc_update.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_password.gif.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\password.gif"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_emp_payment.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_emp_payment.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_customercare.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\customercare.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home_page.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_home_page.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_user.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\user.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_settings.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\settings.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_category.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\category.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login_page_cus.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_login_page_cus.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_forgotpass.gif.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\forgotpass.gif"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cus_acc_update.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_cus_acc_update.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_accpted.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\accpted.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_notification.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\notification.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cus_show_job_history.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_cus_show_job_history.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_favourites.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\favourites.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cus_favourites.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_cus_favourites.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_tick.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\tick.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_assign.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\assign.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_proc.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\proc.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_carpprofile.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\carpprofile.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\menu_cus_main_menu.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\menu\\cus_main_menu.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cus_new_account.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_cus_new_account.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_logout.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\logout.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\menu_emp_main_menu.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\menu\\emp_main_menu.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_myprofile.gif.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\myprofile.gif"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_categorylist.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\categorylist.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\anim_move.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\anim\\move.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_rounded_corner_black_view.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\rounded_corner_black_view.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_my_profile.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_my_profile.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_assigntask.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\assigntask.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_logincus.gif.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\logincus.gif"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_employee_rating.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_employee_rating.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cus_new_location.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_cus_new_location.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_cross.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\cross.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ongoing.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\ongoing.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\anim_slideup.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\anim\\slideup.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_emp.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\emp.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_item_fav.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\item_fav.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_signup.jpg.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\signup.jpg"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_addlocation.gif.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\addlocation.gif"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_taskit.gif.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\taskit.gif"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_mobileloginrafiki.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\mobileloginrafiki.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\raw_working.json.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\raw\\working.json"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_cus.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\cus.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cus_forgot_pass.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_cus_forgot_pass.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_search.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\search.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_rounded_corner_view.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\rounded_corner_view.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_customer_care.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\customer_care.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_house.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\house.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_compliant.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\compliant.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_userpro.gif.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\userpro.gif"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_forgotpasswordrafiki.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\forgotpasswordrafiki.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_progress_bar2.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_progress_bar2.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_categories.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\categories.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_peakpx.jpg.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\peakpx.jpg"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_scanuser.gif.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\scanuser.gif"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_heart.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\heart.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_cus_header.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\cus_header.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_fav_list.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_fav_list.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_locationwithoutback.png.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\locationwithoutback.png"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_loginas.gif.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\drawable-v24\\loginas.gif"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_create_new_account.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_create_new_account.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_background.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_progressbar.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_progressbar.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_customer_care.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\activity_customer_care.xml"
+    },
+    {
+        "merged": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\build\\intermediates\\merged_res\\debug\\layout_carpenter_row.xml.flat",
+        "source": "C:\\Main_Merge_Oshi\\Project_Skyline\\app\\src\\main\\res\\layout\\carpenter_row.xml"
+    }
+]

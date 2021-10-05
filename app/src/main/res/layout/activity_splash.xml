@@ -21,7 +21,6 @@
         android:id="@+id/app_name"
         android:layout_width="314dp"
         android:layout_height="352dp"
-        android:src="@drawable/task"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
