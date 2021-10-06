@@ -67,7 +67,7 @@ public class CusProgressBar extends AppCompatActivity {
 
 
     public void sup(View view){
-        Intent in = new Intent(this,CusPayement.class);
+        Intent in = new Intent(this,CustomerCare.class);
 
         startActivity(in);
     }

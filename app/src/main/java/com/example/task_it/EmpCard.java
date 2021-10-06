@@ -62,7 +62,7 @@ public class EmpCard extends AppCompatActivity {
 
     }
     public void proceedcrd(View view){
-        Intent in = new Intent(this,Splash.class);
+        Intent in = new Intent(this,HomePage.class);
 
         startActivity(in);
     }

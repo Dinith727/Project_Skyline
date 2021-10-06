@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/user"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/taskHis"
+            android:icon="@drawable/job"
+            android:title="Task History" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="Update Profile" />
+        <item
+            android:id="@+id/ongoing"
+            android:title="Ongoing"
+            android:icon="@drawable/ongoing"/>
+        <item
+            android:id="@+id/notification"
+            android:title="Notification"
+            android:icon="@drawable/notification"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/logout"/>
+    </group>
+</menu>

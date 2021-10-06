@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\MAD\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
+            "outputFile": "C:\\main merge\\Project_Skyline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\uvindu\\.gradle\\caches\\transforms-3\\1c82df0e58fbd0ba966b0ae0d34659c1\\transformed\\core-1.5.0\\res\\values-en-rIN\\values-en-rIN.xml",

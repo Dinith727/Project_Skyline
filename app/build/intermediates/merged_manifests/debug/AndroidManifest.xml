@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="31" />
+        android:minSdkVersion="17"
+        android:targetSdkVersion="30" />
 
     <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -33,7 +33,46 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.task_it.CusPayement"
+            android:name="com.example.task_it.JobHistory"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpResetPw"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpProfUp"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpProfile"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpPwConfig"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpRegSuccess"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpRegEn"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.empRegAccept"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpLogin"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.FavAdapter"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.FavList"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CustomerCare"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.HomePage"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CusForgotPass"
             android:exported="true" />
         <activity
             android:name="com.example.task_it.EmployeeRating"
@@ -52,6 +91,54 @@
             android:exported="true" />
         <activity
             android:name="com.example.task_it.EmpCard"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CusNewLocation"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CusLocUpdate"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CusAccUpdate"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CusLocation"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.MyCusAccount"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.MyProfile"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CreateNewAccount"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CusNewAccount"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.LoginPage_Cus"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.Carpentry"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.Electrician"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.AssignTask"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpJob"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.JobAccepted"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.carpProfile"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.Categories"
             android:exported="true" />
 
         <service

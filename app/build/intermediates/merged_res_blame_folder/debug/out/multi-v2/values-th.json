@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\MAD\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-th\\values-th.xml",
+            "outputFile": "C:\\main merge\\Project_Skyline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-th\\values-th.xml",
             "map": [
                 {
                     "source": "C:\\Users\\uvindu\\.gradle\\caches\\transforms-3\\736795ced1125049463359fb87a935ed\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-th\\values.xml",

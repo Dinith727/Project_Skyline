@@ -1,14 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MAD\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from D:\MAD\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from D:\MAD\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from D:\MAD\app\src\main\AndroidManifest.xml:2:1-50:12
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:2:1-140:12
+INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:2:1-140:12
+INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:2:1-140:12
+INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:2:1-140:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\uvindu\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\uvindu\.gradle\caches\transforms-3\c0f7869d4dd728111a89d7a770b58255\transformed\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.airbnb.android:lottie:3.4.1] C:\Users\uvindu\.gradle\caches\transforms-3\f823f20239b7f6d73bbf5e72c4988757\transformed\jetified-lottie-3.4.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\uvindu\.gradle\caches\transforms-3\ccd6c517801f56e7200472775579e27c\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\uvindu\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:15:1-38:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] C:\Users\uvindu\.gradle\caches\transforms-3\b3fd9e4f71986076ac97655bb157dee9\transformed\jetified-android-gif-drawable-1.2.19\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\uvindu\.gradle\caches\transforms-3\8fd6eea0562aea14f3bc71e06ead11c9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\uvindu\.gradle\caches\transforms-3\473b3bc2d803ac7436c939abbc1a6e43\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\uvindu\.gradle\caches\transforms-3\2de5c47915d9536d54f3b7404942fda0\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
@@ -49,25 +50,26 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\uvindu\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\uvindu\.gradle\caches\transforms-3\8d4069d8883cd35818f5c173a3837002\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\uvindu\.gradle\caches\transforms-3\84046498be48793439a4476136a93af1\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\uvindu\.gradle\caches\transforms-3\9ccd4574ebca9c86103f7bd859ba1dfd\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\MAD\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from D:\MAD\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from D:\MAD\app\src\main\AndroidManifest.xml:2:1-50:12
+MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\uvindu\.gradle\caches\transforms-3\09f17998dbf7ca513b37f3d6ab624cde\transformed\jetified-relinker-1.3.1\AndroidManifest.xml:2:1-7:12
+INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:2:1-140:12
+INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:2:1-140:12
+INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:2:1-140:12
 	package
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:3:5-34
-		INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
+		INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:2:1-50:12
-		INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
+		INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:2:1-140:12
+		INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:2:1-50:12
-		INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
+		INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:2:1-140:12
+		INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\MAD\app\src\main\AndroidManifest.xml:5:5-48:19
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:5:5-138:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\uvindu\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\uvindu\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\uvindu\.gradle\caches\transforms-3\c0f7869d4dd728111a89d7a770b58255\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
@@ -95,79 +97,253 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\uv
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\uvindu\.gradle\caches\transforms-3\1c82df0e58fbd0ba966b0ae0d34659c1\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:11:9-44
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:11:9-44
 activity#com.example.task_it.Splash
-ADDED from D:\MAD\app\src\main\AndroidManifest.xml:13:9-24:20
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:14:9-25:20
 	android:exported
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:15:13-36
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:14:13-35
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:15:13-35
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\MAD\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from D:\MAD\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\MAD\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:22:27-74
-activity#com.example.task_it.CusPayement
-ADDED from D:\MAD\app\src\main\AndroidManifest.xml:25:9-27:39
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.example.task_it.JobHistory
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:27:9-29:39
 	android:exported
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:26:13-40
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:28:13-39
+activity#com.example.task_it.EmpResetPw
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:30:9-32:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:31:13-39
+activity#com.example.task_it.EmpProfUp
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:33:9-35:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:34:13-38
+activity#com.example.task_it.EmpProfile
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:36:9-38:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:38:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:37:13-39
+activity#com.example.task_it.EmpPwConfig
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:39:9-41:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:40:13-40
+activity#com.example.task_it.EmpRegSuccess
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:42:9-44:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:44:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:43:13-42
+activity#com.example.task_it.EmpRegEn
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:45:9-47:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:47:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:46:13-37
+activity#com.example.task_it.empRegAccept
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:48:9-50:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:50:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:49:13-41
+activity#com.example.task_it.EmpLogin
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:51:9-53:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:52:13-37
+activity#com.example.task_it.FavAdapter
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:55:9-57:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:57:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:56:13-39
+activity#com.example.task_it.FavList
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:58:9-60:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:60:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:59:13-36
+activity#com.example.task_it.CustomerCare
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:61:9-63:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:63:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:62:13-41
+activity#com.example.task_it.HomePage
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:64:9-66:38
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:66:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:65:13-37
+activity#com.example.task_it.CusForgotPass
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:68:9-70:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:70:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:69:13-42
 activity#com.example.task_it.EmployeeRating
-ADDED from D:\MAD\app\src\main\AndroidManifest.xml:28:9-30:39
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:71:9-74:39
 	android:exported
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:30:13-36
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:74:13-36
 	android:name
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:29:13-43
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:73:13-43
 activity#com.example.task_it.EmpPayment
-ADDED from D:\MAD\app\src\main\AndroidManifest.xml:31:9-33:39
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:75:9-77:39
 	android:exported
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:77:13-36
 	android:name
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:32:13-39
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:76:13-39
 activity#com.example.task_it.CusProgressBar
-ADDED from D:\MAD\app\src\main\AndroidManifest.xml:34:9-36:38
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:78:9-80:38
 	android:exported
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:36:13-36
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:80:13-36
 	android:name
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:35:13-43
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:79:13-43
 activity#com.example.task_it.ProgressBar2
-ADDED from D:\MAD\app\src\main\AndroidManifest.xml:38:9-40:39
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:82:9-84:39
 	android:exported
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:40:13-36
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:84:13-36
 	android:name
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:39:13-41
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:83:13-41
 activity#com.example.task_it.EmpCash
-ADDED from D:\MAD\app\src\main\AndroidManifest.xml:41:9-43:38
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:87:9-89:38
 	android:exported
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:43:13-36
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:89:13-36
 	android:name
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:42:13-36
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:88:13-36
 activity#com.example.task_it.EmpCard
-ADDED from D:\MAD\app\src\main\AndroidManifest.xml:45:9-47:39
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:91:9-93:39
 	android:exported
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:47:13-36
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:93:13-36
 	android:name
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml:46:13-36
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:92:13-36
+activity#com.example.task_it.CusNewLocation
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:94:9-96:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:96:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:95:13-43
+activity#com.example.task_it.CusLocUpdate
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:97:9-99:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:99:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:98:13-41
+activity#com.example.task_it.CusAccUpdate
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:100:9-102:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:102:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:101:13-41
+activity#com.example.task_it.CusLocation
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:103:9-105:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:105:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:104:13-40
+activity#com.example.task_it.MyCusAccount
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:106:9-108:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:108:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:107:13-41
+activity#com.example.task_it.MyProfile
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:109:9-111:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:111:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:110:13-38
+activity#com.example.task_it.CreateNewAccount
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:112:9-114:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:114:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:113:13-45
+activity#com.example.task_it.CusNewAccount
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:115:9-117:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:117:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:116:13-42
+activity#com.example.task_it.LoginPage_Cus
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:118:9-120:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:120:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:119:13-42
+activity#com.example.task_it.Carpentry
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:122:9-123:39
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:123:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:122:19-44
+activity#com.example.task_it.Electrician
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:125:9-126:38
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:126:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:125:19-46
+activity#com.example.task_it.AssignTask
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:127:9-128:38
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:128:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:127:19-45
+activity#com.example.task_it.EmpJob
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:129:9-130:38
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:130:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:129:19-41
+activity#com.example.task_it.JobAccepted
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:131:9-132:38
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:132:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:131:19-46
+activity#com.example.task_it.carpProfile
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:133:9-134:38
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:134:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:133:19-46
+activity#com.example.task_it.Categories
+ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:135:9-136:38
+	android:exported
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:136:13-36
+	android:name
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml:135:19-45
 uses-sdk
-INJECTED from D:\MAD\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
-INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
+INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
+INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\uvindu\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\uvindu\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\uvindu\.gradle\caches\transforms-3\c0f7869d4dd728111a89d7a770b58255\transformed\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
@@ -178,6 +354,8 @@ MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\uvindu\.gradle\caches\
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\uvindu\.gradle\caches\transforms-3\ccd6c517801f56e7200472775579e27c\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\uvindu\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\uvindu\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:19:5-21:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] C:\Users\uvindu\.gradle\caches\transforms-3\b3fd9e4f71986076ac97655bb157dee9\transformed\jetified-android-gif-drawable-1.2.19\AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] C:\Users\uvindu\.gradle\caches\transforms-3\b3fd9e4f71986076ac97655bb157dee9\transformed\jetified-android-gif-drawable-1.2.19\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\uvindu\.gradle\caches\transforms-3\8fd6eea0562aea14f3bc71e06ead11c9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\uvindu\.gradle\caches\transforms-3\8fd6eea0562aea14f3bc71e06ead11c9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\uvindu\.gradle\caches\transforms-3\473b3bc2d803ac7436c939abbc1a6e43\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:19:5-21:41
@@ -258,16 +436,18 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\uvindu\.gradle\caches\transfor
 MERGED from [androidx.print:print:1.0.0] C:\Users\uvindu\.gradle\caches\transforms-3\84046498be48793439a4476136a93af1\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\uvindu\.gradle\caches\transforms-3\9ccd4574ebca9c86103f7bd859ba1dfd\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\uvindu\.gradle\caches\transforms-3\9ccd4574ebca9c86103f7bd859ba1dfd\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
-INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
+MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\uvindu\.gradle\caches\transforms-3\09f17998dbf7ca513b37f3d6ab624cde\transformed\jetified-relinker-1.3.1\AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\uvindu\.gradle\caches\transforms-3\09f17998dbf7ca513b37f3d6ab624cde\transformed\jetified-relinker-1.3.1\AndroidManifest.xml:5:5-43
+INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
+INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
+		INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
+		INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
-		ADDED from D:\MAD\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MAD\app\src\main\AndroidManifest.xml
+		INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
+		ADDED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
+		INJECTED from C:\main merge\Project_Skyline\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:20.0.2] C:\Users\uvindu\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:5-79
 	android:name

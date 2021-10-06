@@ -1,5 +1,6 @@
 package com.example.task_it;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -35,7 +36,7 @@ public class Splash extends AppCompatActivity {
             @Override
             public void run() {
 
-                startActivity(new Intent(Splash.this,ProgressBar2.class));
+                startActivity(new Intent(Splash.this,HomePage.class));
             }
         },6000);
 

@@ -1,5 +1,6 @@
 package com.example.task_it;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -62,11 +63,12 @@ public class EmployeeRating extends AppCompatActivity {
                 }
             }
         });
-
+        Intent in = new Intent(this,Thank_you_page.class);
         mSendFeedback.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
+
                 if (mFeedback.getText().toString().isEmpty()) {
                     Toast.makeText(EmployeeRating.this, "Please fill in feedback text box", Toast.LENGTH_LONG).show();
                 }
@@ -87,8 +89,11 @@ public class EmployeeRating extends AppCompatActivity {
                     dbref.child("Table light").child("feedback").setValue(f);
                     Toast.makeText(EmployeeRating.this, "Thank you for sharing your feedback", Toast.LENGTH_SHORT).show();
 
+                    startActivity(in);
                 }
+
             }
+
         });
 
     }

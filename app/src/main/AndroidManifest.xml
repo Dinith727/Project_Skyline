@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Taskit">
 
+
         <activity
             android:name=".Splash"
             android:exported="true" >
@@ -22,10 +23,53 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".CusPayement"
+            android:name=".JobHistory"
             android:exported="true" />
         <activity
+            android:name=".EmpResetPw"
+            android:exported="true" />
+        <activity
+            android:name=".EmpProfUp"
+            android:exported="true" />
+        <activity
+            android:name=".EmpProfile"
+            android:exported="true" />
+        <activity
+            android:name=".EmpPwConfig"
+            android:exported="true" />
+        <activity
+            android:name=".EmpRegSuccess"
+            android:exported="true" />
+        <activity
+            android:name=".EmpRegEn"
+            android:exported="true" />
+        <activity
+            android:name=".empRegAccept"
+            android:exported="true" />
+        <activity
+            android:name=".EmpLogin"
+            android:exported="true" />
+
+        <activity
+            android:name=".FavAdapter"
+            android:exported="true" />
+        <activity
+            android:name=".FavList"
+            android:exported="true" />
+        <activity
+            android:name=".CustomerCare"
+            android:exported="true" />
+        <activity
+            android:name=".HomePage"
+            android:exported="true"/>
+
+        <activity
+            android:name=".CusForgotPass"
+            android:exported="true" />
+        <activity
+
             android:name=".EmployeeRating"
             android:exported="true" />
         <activity
@@ -38,6 +82,8 @@
         <activity
             android:name=".ProgressBar2"
             android:exported="true" />
+
+
         <activity
             android:name=".EmpCash"
             android:exported="true"/>
@@ -45,6 +91,52 @@
         <activity
             android:name=".EmpCard"
             android:exported="true" />
+        <activity
+            android:name=".CusNewLocation"
+            android:exported="true" />
+        <activity
+            android:name=".CusLocUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".CusAccUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".CusLocation"
+            android:exported="true" />
+        <activity
+            android:name=".MyCusAccount"
+            android:exported="true" />
+        <activity
+            android:name=".MyProfile"
+            android:exported="true" />
+        <activity
+            android:name=".CreateNewAccount"
+            android:exported="true" />
+        <activity
+            android:name=".CusNewAccount"
+            android:exported="true" />
+        <activity
+            android:name=".LoginPage_Cus"
+            android:exported="true" />
+
+        <activity android:name=".Carpentry"
+            android:exported="true" />
+
+        <activity android:name=".Electrician"
+            android:exported="true"/>
+        <activity android:name=".AssignTask"
+            android:exported="true"/>
+        <activity android:name=".EmpJob"
+            android:exported="true"/>
+        <activity android:name=".JobAccepted"
+            android:exported="true"/>
+        <activity android:name=".carpProfile"
+            android:exported="true"/>
+        <activity android:name=".Categories"
+            android:exported="true"/>
+
     </application>
 
 </manifest>
+
+

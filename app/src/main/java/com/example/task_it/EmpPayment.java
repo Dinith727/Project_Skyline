@@ -30,6 +30,7 @@ public class EmpPayment extends AppCompatActivity {
         setContentView(R.layout.activity_emp_payment);
         desc = findViewById(R.id.desc);
         start = findViewById(R.id.start);
+
         end = findViewById(R.id.end);
         duration = findViewById(R.id.duration);
         Fee = (EditText) findViewById(R.id.Fee);
@@ -59,6 +60,7 @@ public class EmpPayment extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Invalid Data", Toast.LENGTH_SHORT).show();
                 }
             }
+
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
@@ -102,7 +104,7 @@ public class EmpPayment extends AppCompatActivity {
             String f = Fee.getText().toString();
             jb.setFee(" ");
             dbRef.child("Table light").child("fee").setValue(f);
-            startActivity(in);
+
             Toast.makeText(EmpPayment.this, "Choose a Payment method and Proceed", Toast.LENGTH_SHORT).show();
     }
 }
