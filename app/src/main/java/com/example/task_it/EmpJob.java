@@ -97,9 +97,11 @@ public class EmpJob extends AppCompatActivity {
             }
         });
 
-        Intent intent = new Intent (EmpJob.this, JobAccepted.class);
+        Intent intent = new Intent (EmpJob.this, ProgressBar2.class);
         String phone = getIntent().getStringExtra("tel");
         intent.putExtra("tel", phone);
+        String job = getIntent().getStringExtra("desc");
+        intent.putExtra("jobname",job);
         startActivity(intent);
     }
 

@@ -9,6 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Taskit">
+
+
+        <activity
+            android:name=".Splash"
+            android:exported="true" >
+
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".JobHistory"
             android:exported="true" />
@@ -48,15 +63,33 @@
             android:exported="true" />
         <activity
             android:name=".HomePage"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="true"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".CusForgotPass"
+            android:exported="true" />
+        <activity
+
+            android:name=".EmployeeRating"
+            android:exported="true" />
+        <activity
+            android:name=".EmpPayment"
+            android:exported="true" />
+        <activity
+            android:name=".CusProgressBar"
+            android:exported="true"/>
+
+        <activity
+            android:name=".ProgressBar2"
+            android:exported="true" />
+
+
+        <activity
+            android:name=".EmpCash"
+            android:exported="true"/>
+
+        <activity
+            android:name=".EmpCard"
             android:exported="true" />
         <activity
             android:name=".CusNewLocation"
@@ -86,16 +119,24 @@
             android:name=".LoginPage_Cus"
             android:exported="true" />
 
-        <activity android:name=".Carpentry"></activity>
-        <activity android:name=".Electrician"></activity>
-        <activity android:name=".AssignTask"></activity>
-        <activity android:name=".EmpJob"></activity>
-        <activity android:name=".JobAccepted"></activity>
-        <activity android:name=".carpProfile"></activity>
-        <activity android:name=".Categories">
-        </activity>
+        <activity android:name=".Carpentry"
+            android:exported="true" />
+
+        <activity android:name=".Electrician"
+            android:exported="true"/>
+        <activity android:name=".AssignTask"
+            android:exported="true"/>
+        <activity android:name=".EmpJob"
+            android:exported="true"/>
+        <activity android:name=".JobAccepted"
+            android:exported="true"/>
+        <activity android:name=".carpProfile"
+            android:exported="true"/>
+        <activity android:name=".Categories"
+            android:exported="true"/>
 
     </application>
 
 </manifest>
+
 

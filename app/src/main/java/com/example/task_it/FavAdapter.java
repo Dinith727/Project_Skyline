@@ -18,6 +18,10 @@ public class FavAdapter extends RecyclerView.Adapter<FavAdapter.MyViewHolder>{
     Context context;
     ArrayList<Fav> list;
 
+    public FavAdapter(){
+
+    }
+
     public FavAdapter(Context context, ArrayList<Fav> list) {
         this.context = context;
         this.list = list;

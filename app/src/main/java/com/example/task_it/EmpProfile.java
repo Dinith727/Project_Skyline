@@ -110,8 +110,8 @@ public class EmpProfile extends AppCompatActivity implements NavigationView.OnNa
                 startActivity(q);
                 break;
             case R.id.ongoing:
-//                Intent i = new Intent(this, activity_show_hotel.class);
-//                startActivity(i);
+               Intent i = new Intent(this, ProgressBar2.class);
+               startActivity(i);
                 break;
             case R.id.notification:
                 break;

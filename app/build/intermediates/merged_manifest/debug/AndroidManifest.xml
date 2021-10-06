@@ -24,6 +24,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.Taskit" >
         <activity
+            android:name="com.example.task_it.Splash"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.example.task_it.JobHistory"
             android:exported="true" />
         <activity
@@ -61,15 +70,27 @@
             android:exported="true" />
         <activity
             android:name="com.example.task_it.HomePage"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.example.task_it.CusForgotPass"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmployeeRating"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpPayment"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.CusProgressBar"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.ProgressBar2"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpCash"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpCard"
             android:exported="true" />
         <activity
             android:name="com.example.task_it.CusNewLocation"
@@ -98,14 +119,27 @@
         <activity
             android:name="com.example.task_it.LoginPage_Cus"
             android:exported="true" />
-        <activity android:name="com.example.task_it.Carpentry" />
-        <activity android:name="com.example.task_it.Electrician" />
-        <activity android:name="com.example.task_it.AssignTask" />
-        <activity android:name="com.example.task_it.EmpJob" />
-        <activity android:name="com.example.task_it.JobAccepted" />
-        <activity android:name="com.example.task_it.carpProfile" />
-        <activity android:name="com.example.task_it.Categories" >
-        </activity>
+        <activity
+            android:name="com.example.task_it.Carpentry"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.Electrician"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.AssignTask"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.EmpJob"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.JobAccepted"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.carpProfile"
+            android:exported="true" />
+        <activity
+            android:name="com.example.task_it.Categories"
+            android:exported="true" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

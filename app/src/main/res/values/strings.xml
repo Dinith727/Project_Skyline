@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Task-it</string>
+
+
     <string name="txt_heading">Welcome to Task-it</string>
     <string name="btn_enter">Get Started</string>
     <string name="txt_log_heading">Task-it</string>
@@ -93,12 +95,19 @@
     <string name="btn_cusDeleteAcc">Delete Account</string>
 
 
+
     <string name="txt_head">Awesome. I love it</string>
     <string name="txt_head1">We hope you Satisfied with our service</string>
     <string name="btn_start">Start</string>
     <string name="btn_pause">Pause</string>
     <string name="btn_completed">Completed</string>
     <string name="txt_jobprog">Job Progress</string>
+
+    <string name="txt_job">JobID</string>
+    <string name="txt_Job">JobID  :</string>
+    <string name="txt_descript">Select the (Payment Recieved) after recieving the payment.</string>
+    <string name="txt_cardesc">Select the (Payment Received) after receiving the payment confirmation notification from the Bank and Proceed</string>
+
 
     <string name="txtID">ID</string>
     <string name="txtName">Name :</string>
@@ -186,5 +195,6 @@
     <string name="btn_yoga">YOGA INSTRUCTOR</string>
     <string name="cusHeaderName">Task-it</string>
     <string name="cusHeaderSubName">All tasks. One App</string>
+
 
 </resources>
